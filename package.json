@@ -1,0 +1,32 @@
+{
+  "name": "codrops-tutorial",
+  "version": "1.0.0",
+  "author": "BRAND NEW GUYS",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently 'npm:watch-bundle' 'npm:serve-11ty'",
+    "build": "npm run build-bundle -s && npm run build-11ty -s",
+    "watch-bundle": "parcel watch src/static/js/index.js src/static/js/podcast_index.js --dist-dir ./dist",
+    "build-bundle": "parcel build src/static/js/index.js --dist-dir ./dist",
+    "serve-11ty": "npx @11ty/eleventy --input=src --serve",
+    "build-11ty": "npx eleventy"
+  },
+  "devDependencies": {
+    "@parcel/transformer-jsonld": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.2",
+    "concurrently": "^7.6.0",
+    "http-server": "^14.1.1",
+    "node-sass": "^8.0.0",
+    "parcel": "^2.8.2",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.26.12"
+  },
+  "dependencies": {
+    "browsersync": "^0.0.1-security",
+    "eleventy-plugin-local-images": "^0.4.1",
+    "gsap": "file:gsap-bonus.tgz",
+    "imagesloaded": "^4.1.4",
+    "splitting": "^1.0.6",
+    "virtual-scroll": "^1.5.2"
+  }
+}

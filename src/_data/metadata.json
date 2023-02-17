@@ -1,0 +1,37 @@
+{
+    "title": "BRAND NEW GUYS | A New perspective",
+    "url": "https://brandnewguys.co",
+    "domain": "brandnewguys.co",
+    "description": "A small digital creative agency offering best in class digital experiences",
+    "genre": "Creative agency",
+    "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+    "sendWebVitals": false,
+    "feed": {
+        "subtitle": "The intersection of technology, storytelling and culture.",
+        "filename": "feed.xml",
+        "path": "/feed/feed.xml",
+        "id": "https://brandnewguys.co"
+    },
+    "jsonfeed": {
+        "path": "/feed/feed.json",
+        "url": "https://brandnewguys.co/feed/feed.json"
+    },
+    "author": {
+    "name": "Cye Wong-Loi-Sing",
+    "twitterHandle": "cyesergio"
+    },
+    "publisher": {
+    "name": "Brand New Guys"
+    },
+    "version": "V1.03 / Beta",
+    "location": {
+        "label": "claes de vrieselaan 2b",
+        "url": "https://www.google.com/maps/place/Brand+New+Guys/@51.9176971,4.457516,17z/data=!3m1!4b1!4m5!3m4!1s0x47c434bdbbf80f67:0x7a07e1baa2375af9!8m2!3d51.9176971!4d4.45971?shorturl=1"
+    },
+    "instagram": "https://instagram.com/brandnewguys.agency",
+    "phone": "tel:0031102005300",
+    "podcast": {
+        "label": "Podcasts",
+        "url": "/deepcuts"
+    }
+}
