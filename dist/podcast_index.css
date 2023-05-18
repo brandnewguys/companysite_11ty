@@ -58,12 +58,13 @@ a:hover, a:focus {
 .frame {
   z-index: 1000;
   width: 100%;
+  background: linear-gradient(#d5d7ce 65%, #d5d7ce00 100%);
   align-items: center;
-  padding: 1rem 1rem 0;
+  padding: 1rem 1rem 3rem;
   font-family: neue-haas-grotesk-text;
   font-weight: 100;
   display: flex;
-  position: relative;
+  position: fixed;
   top: 0;
 }
 
@@ -94,19 +95,6 @@ a:hover, a:focus {
   display: flex;
   position: relative;
   overflow: auto;
-}
-
-.menu:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  pointer-events: none;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: inset 0 20px 10px #d5d7cf;
 }
 
 .mobile .menu {
@@ -181,7 +169,7 @@ a:hover, a:focus {
   .frame {
     grid-template-areas: "logo phrase search";
     align-items: center;
-    padding: 3rem 4rem 0;
+    padding: 3rem 4rem 4rem;
     display: grid;
     top: 0;
   }
@@ -200,10 +188,6 @@ a:hover, a:focus {
   .frame__search {
     grid-area: search;
     justify-self: end;
-  }
-
-  .menu:before {
-    box-shadow: inset 0 35px 10px #d5d7cf;
   }
 
   .menu__item {
