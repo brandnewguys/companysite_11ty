@@ -9,7 +9,7 @@
     "watch-bundle": "parcel watch src/static/js/index.js src/static/js/podcast_index.js --out-dir ./dist",
     "build-bundle": "parcel build src/static/js/index.js --out-dir ./dist",
     "serve-11ty": "npx @11ty/eleventy --input=src --serve",
-    "build-11ty": "npx eleventy"
+    "build-11ty": "npx @11ty/eleventy"
   },
   "devDependencies": {
     "@parcel/transformer-jsonld": "^2.8.2",
