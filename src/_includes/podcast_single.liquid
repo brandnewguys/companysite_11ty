@@ -44,9 +44,7 @@
                 <span class="intro__info">Let's go for a scroll</span>
             </div>
             <div class="content">
-                    {{ content | replace: '<blockquote>
-<p>', '<blockquote>' | replace: '</p>
-</blockquote>', '</blockquote>'}}
+                <p>{{ content | replace: '<blockquote> <p>', '<blockquote>' | replace: '</p> </blockquote>', '</blockquote>'}} </p>
             </div>
             
             <div class="content footer">

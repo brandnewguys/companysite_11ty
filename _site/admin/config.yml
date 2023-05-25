@@ -4,7 +4,7 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
-  repo: brandnewguys/companysite # Path to your GitHub repository
+  repo: brandnewguys/companysite_11ty # Path to your GitHub repository
 # This line should *not* be indented
 publish_mode: editorial_workflow
 logo_url: https://brandnewguys.co/img/bng-black.svg
