@@ -22,7 +22,10 @@ collections:
     folder: "/src/deepcuts"
     fields:
       - {label: "Title", name: title, widget: "string"}
+      - {label: "subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Recording date", name: "recording_date", widget: "datetime"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "podcast_single.liquid"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "podcast"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Spotify", name: "spotify_url", widget: "string", required: false}
       - {label: "Apple", name: "apple_url", widget: "string", required: false}

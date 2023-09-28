@@ -22,7 +22,13 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 }
-
+@font-face {
+  font-family: 'Recoleta';
+  src: url("/Recoleta-RegularDEMO.1d5dac31.woff2") format("woff2"), url("/Recoleta-RegularDEMO.c4339b32.woff") format("woff"), url("/Recoleta-RegularDEMO.2693e8cd.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+  
 iframe.instagram-media {
     margin: 0 auto !important;
 }

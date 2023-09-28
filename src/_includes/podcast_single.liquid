@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }}</title>
-        <meta name="description" content="Dekmantel deck 2023" />
-        <meta name="keywords" content="Dekmantel" />
-        <meta name="author" content="Codrops" />
+        <meta name="description" content="Brand New Guys | Deepcuts" />
+        <meta name="keywords" content="Deepcuts" />
+        <meta name="author" content="Brand New Guys" />
         <link rel="shortcut icon" href="/static/img/favicon.ico">
         <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css">
         <link rel="stylesheet" type="text/css" href="/static/css/single_content_base.css" />
@@ -35,15 +35,18 @@
                 </nav>
             </div>
             <div class="intro">
+                 <p>{% if image %}<img src="/static/img/uploads{{ image }}" />{% endif %}</p>
                 <h1 class="intro__title">
                     <span class="intro__title-pre">{{ title | strip_html }}</span>
-                    <span class="intro__title-sub">"When Madlib met Dilla" <br />or how fan service can fuel consumer advocacy</span>
-
+                    <span class="intro__title-sub">{{ subtitle | strip_html }}</span>
                     <p>{{ embedded_player }}</p>
                 </h1>
-                <span class="intro__info">Let's go for a scroll</span>
-            </div>
+               
+
+                <span class="intro__info">As discussed with<br />{% for guest in guests %}{% if forloop.first %} <a href="{{ guest.guest_url }}" target="_blank">{{ guest.guest_name | capitalize }}</a>{% elsif forloop.last %}& <a href="{{ guest.guest_url }}">{{ guest.guest_name }}</a>{% else %}, <a href="{{ guest.guest_url }}">{{ guest.guest_name }}</a> {% endif %} {% endfor %}<br />
+      on <strong>{{ recording_date | date: "%A, %b %d, %Y" | replace: ',', ''}}</strong></span> </div>
             <div class="content">
+
                 <p>{{ content | replace: '<blockquote> <p>', '<blockquote>' | replace: '</p> </blockquote>', '</blockquote>'}} </p>
             </div>
             

@@ -9,10 +9,7 @@ apple_url: https://google.com
 google_url: https://google.com
 stitcher_url: https://google.com
 radiopublic_url: https://google.com
-guests:
-  - Cye
-  - Virgil
-  - Sheray
+
 tags: podcast
 ---
 

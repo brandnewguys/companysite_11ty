@@ -35,3 +35,12 @@ npm run serve
 This project is based on a codrops template  
 [Article on Codrops](https://tympanus.net/codrops/?p=51966)  
 [Demo](http://tympanus.net/Tutorials/ParallaxSliderHoverReveal/)
+
+
+## BNG Notes
+
+_data folder contains meta data that is rendered to the homepage
+_includes containes templates for page rendering
+	podcast_index.liquid is the index page for all podcasts template
+	podcast_single.liquid is the single podcast template
+	home.liquid is the BNG homepage template
