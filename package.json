@@ -6,8 +6,8 @@
   "scripts": {
     "start": "concurrently 'yarn:watch-bundle' 'yarn:serve-11ty'",
     "build": "yarn run build-11ty && yarn run build-bundle",
-    "watch-bundle": "parcel watch src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --out-dir ./dist",
-    "build-bundle": "parcel build src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --out-dir ./dist",
+    "watch-bundle": "parcel watch src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --dist-dir ./dist",
+    "build-bundle": "parcel build src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --dist-dir ./dist",
     "serve-11ty": "npx @11ty/eleventy --input=src --serve",
     "build-11ty": "npx @11ty/eleventy"
   },
