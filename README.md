@@ -44,3 +44,10 @@ _includes containes templates for page rendering
 	podcast_index.liquid is the index page for all podcasts template
 	podcast_single.liquid is the single podcast template
 	home.liquid is the BNG homepage template
+cases contains the cases displayed on the homepage. Each case has a 'case' tag, so it get's added to the cases collection.
+deepcuts contains the podcasts displayed on the podcast index page. Each case has a 'podcast' tag, so it get's added to the podcast collection.
+static contains all css, js, images, fonts AND staticcally rendered pages. There's a directive in Eleventy.js config file to copy these over.
+uploads is a legacy folder that contains, logo and the balie video (for some reason).
+
+
+When adding new pages. Make sure you prepend url to assest with '/dist/' for correct resolving. And of course add it to the parcel build chain if it has a build process!

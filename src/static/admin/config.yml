@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: next # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
@@ -55,6 +55,20 @@ collections:
       - {label: "Title", name: title, widget: "string"}
       - {label: "Image", name: "img", widget: "image", allow_multiple: false}
       - {label: "Url", name: "url", widget: "string"}
+
+  - label: "Events"
+    name: "events"
+    folder: "/src/events"
+    create: true
+    slug: "{{ date }}-{{ title }}"
+    fields: 
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Title", name: title, widget: "string"}
+      - {label: "Host", name: host, widget: "string"}
+      - {label: "Image", name: "img", widget: "image", allow_multiple: false}
+      - {label: "Url", name: "url", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", default: "hotel-lobi"}
+
 
   - label: "Pages"
     name: "pages"

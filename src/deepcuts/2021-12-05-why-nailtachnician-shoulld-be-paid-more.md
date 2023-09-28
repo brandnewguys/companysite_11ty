@@ -1,10 +1,10 @@
 ---
-title: Why nailtachnician shoulld be paid more
+title: Why nail technicians should be paid more
 subtitle: it's crazy!
 recording_date: 2023-05-26T13:04:59.899Z
 layout: podcast_single.liquid
 tags: podcast
-image: /Melly.jpg
+image: /static/img/uploads/bende3.png
 embedded_player: <iframe src='https://share.transistor.fm/e/1493e91f/dark'
   width='100%' height='180' frameborder='0' scrolling='no' seamless='true'
   style='width:100%; height:180px;'></iframe>

@@ -237,6 +237,14 @@ main {
 	text-align: center;
 }
 
+.intro img {
+    max-width: 120px;
+}
+
+.intro svg {
+	fill: #ddc4a4;
+}
+
 .intro__title {
 	display: grid;
 	place-items: center;
