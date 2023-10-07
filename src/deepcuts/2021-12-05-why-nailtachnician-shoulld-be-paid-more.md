@@ -13,6 +13,8 @@ guests:
     guest_url: hhtps://instagram.com/ouxucheng
   - guest_name: Cye Wong-Loi-Sing
     guest_url: https://twitter.com/cyesergio
+  - guest_name: Stacii Samidin
+    guest_url: https://instagram.com/stacii
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
