@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GOWTU | Hotel Lobi</title>
+		<meta name="description" content="A draggable image strip layout with a content preview powered by Draggabilly and TweenMax." />
+		<meta name="keywords" content="draggable, images, horizontal, layout, flexbox, grid, css, tweenmax, draggabilly, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/ugp0unb.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/gallery-base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">GOWTU Gallery</h1>
+					<!-- <div class="frame__links">
+						<a href="http://tympanus.net/Tutorials/GridToFullscreenAnimations/">Previous demo</a>
+						<a href="https://tympanus.net/codrops/?p=40863">Article</a>
+						<a href="https://github.com/codrops/DraggableImageStrip/">GitHub</a>
+					</div> -->
+				</div>
+				<h3 class="frame__subtitle">Gowtu</h3>
+				<div class="frame__indicator"></div>
+			</div>
+			<div class="strip-outer">
+				<div class="strip-inner">
+					<div class="draggable"></div>
+					<div class="strip">
+						
+					</div><!--/strip-->
+				</div><!--/strip-inner-->
+				<div class="strip-cover">
+					<h2 class="strip-cover__title">Gowtu</h2>
+					<span class="strip-cover__subtitle">2023</span>
+				</div>
+			</div><!--/strip-outer-->
+			<div class="content">
+				
+				<button class="content__close" aria-label="Close content"><svg width="12" height="26" viewBox="0 0 12 26"><path d="M5.293 25H5v-.293l-5-5L.707 19 5 23.293V0h1v23.657L10.657 19l.707.707-5.657 5.657-.025-.025-.025.025L5.293 25z"/></svg></svg></button>
+			</div>
+		</main>
+		<!-- <div class="cursor">
+			<div class="cursor__inner cursor__inner--circle">
+				<div class="cursor__side cursor__side--left"></div>
+				<div class="cursor__side cursor__side--right"></div>
+			</div>
+		</div> -->
+		<script src="/static/js/imagesloaded.pkgd.min.js"></script>
+		<script src="/static/js/TweenMax.min.js"></script>
+		<script src="/static/js/draggabilly.pkgd.min.js"></script>
+		<script src="/static/js/draggable-gallery.js"></script>
+		<script>
+			// Preload all the images in the page
+			imagesLoaded(document.querySelectorAll('.img-inner'), {background: true}, () => document.body.classList.remove('loading'));
+		</script>
+	</body>
+</html>

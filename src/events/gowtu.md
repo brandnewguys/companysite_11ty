@@ -1,5 +1,6 @@
 ---
 title: "GOWTU"
+layout: event_gallery.liquid
 host: Drimi
 host_link: https://instagram.com/drimisharon
 date: 2023-10-06
