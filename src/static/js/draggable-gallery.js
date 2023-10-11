@@ -404,7 +404,7 @@
     const strip = new Strip(document.querySelector('.strip-outer'));
     
     // Custom mouse cursor
-    // const cursor = new Cursor(document.querySelector('.cursor'));
+    const cursor = new Cursor(document.querySelector('.cursor'));
 
     // The content elements
     const contentItems = [];

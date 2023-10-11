@@ -7,7 +7,7 @@
 		<meta name="description" content="A draggable image strip layout with a content preview powered by Draggabilly and TweenMax." />
 		<meta name="keywords" content="draggable, images, horizontal, layout, flexbox, grid, css, tweenmax, draggabilly, web design" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="/static/img/favicon.ico">
 		<link rel="stylesheet" href="https://use.typekit.net/ugp0unb.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/gallery-base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
@@ -16,39 +16,1030 @@
 		<main>
 			<div class="frame">
 				<div class="frame__title-wrap">
-					<h1 class="frame__title">GOWTU Gallery</h1>
-					<!-- <div class="frame__links">
-						<a href="http://tympanus.net/Tutorials/GridToFullscreenAnimations/">Previous demo</a>
-						<a href="https://tympanus.net/codrops/?p=40863">Article</a>
-						<a href="https://github.com/codrops/DraggableImageStrip/">GitHub</a>
-					</div> -->
+					<h1 class="frame__title"></h1>
+					<div class="frame__links">
+						<a href="https://instagram.com/drimisharon">GOWTU by Drimi</a>
+						<a href="/hotel-lobi">← back</a>
+						
+					</div>
 				</div>
-				<h3 class="frame__subtitle">Gowtu</h3>
+				<h3 class="frame__subtitle">
+					<svg id="bng" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157 29.83">
+					  <path d="M5.26,6.28c0-.16,.12-.28,.28-.28h5.52c.14,0,.35,.09,.47,.21l1.94,1.94c.12,.12,.21,.33,.21,.47v4.42c0,.16-.09,.38-.21,.47l-.68,.7c-.12,.12-.12,.3-.02,.4l.73,.73c.1,.12,.19,.33,.19,.47v5.4c0,.14-.09,.35-.21,.47l-1.94,1.94c-.12,.12-.33,.21-.47,.21H5.54c-.16,0-.28-.12-.28-.28V6.28Zm2.76,2.2c-.16,0-.28,.12-.28,.28v4.14c0,.16,.12,.28,.28,.28h2.01c.14,0,.38-.07,.47-.19l.51-.49c.09-.12,.19-.33,.19-.49v-2.36c0-.14-.09-.38-.19-.47l-.51-.52c-.09-.09-.33-.19-.47-.19h-2.01Zm2.99,12.17c.09-.09,.19-.33,.19-.47v-3.35c0-.16-.09-.37-.19-.49l-.47-.47c-.12-.12-.33-.21-.47-.21h-2.06c-.16,0-.28,.14-.28,.28v5.12c0,.16,.12,.28,.28,.28h2.01c.14,0,.38-.09,.47-.19l.52-.51Z"/>
+					  <path d="M24.44,14.49c0,.16-.09,.37-.21,.49l-.73,.73c-.12,.12-.19,.33-.14,.47l1.29,7.37c.02,.16-.09,.28-.23,.28h-1.97c-.16,0-.3-.12-.33-.28l-1.08-6.15c-.02-.14-.16-.26-.33-.26h-1.94c-.14,0-.28,.12-.26,.26v6.15c0,.14-.14,.28-.28,.28h-1.92c-.16,0-.28-.12-.3-.28V6.3c0-.16,.12-.28,.28-.28h5.5c.16,0,.37,.09,.49,.21l1.94,1.94c.12,.12,.21,.33,.21,.47v5.85h0Zm-2.69-.54c.12-.12,.21-.33,.21-.49v-3.79c0-.14-.09-.38-.21-.47l-.49-.49c-.12-.12-.33-.21-.47-.21h-2.01c-.14,0-.28,.14-.28,.28v5.57c0,.16,.14,.28,.28,.28h2.01c.14,0,.35-.07,.47-.19l.49-.49Z"/>
+					  <path d="M31.11,6.28c.05-.14,.19-.26,.35-.26h1.9c.14-.02,.3,.12,.33,.26l4.21,17.26c.05,.16-.04,.28-.21,.28h-2.04c-.16,0-.3-.12-.35-.28l-.58-2.46c-.02-.14-.19-.28-.35-.26h-3.84c-.16,0-.33,.12-.35,.26l-.58,2.46c-.02,.16-.19,.28-.35,.28h-2.01c-.16,0-.26-.12-.23-.28L31.11,6.28Zm-.21,11.74c-.02,.16,.07,.28,.21,.28h2.65c.16,0,.26-.14,.21-.28l-1.47-6.06c-.05-.16-.09-.16-.14,0l-1.45,6.06Z"/>
+					  <path d="M45.61,15.24c.05,.14,.09,.14,.09-.02V6.28c0-.14,.14-.28,.28-.28h1.92c.16,0,.28,.14,.28,.28V23.55c0,.16-.12,.28-.28,.28h-1.54c-.16,0-.33-.12-.38-.26l-3.6-10.04c-.07-.14-.09-.12-.09,.02v9.99c0,.16-.14,.28-.28,.28h-1.92c-.16,0-.28-.12-.28-.28V6.3c0-.16,.12-.28,.28-.28h1.92c.16,0,.33,.12,.38,.26l3.23,8.96Z"/>
+					  <path d="M50.8,23.83c-.16,0-.28-.12-.28-.28V6.3c0-.16,.12-.28,.28-.28h5.52c.14,0,.38,.07,.47,.19l1.94,1.94c.12,.12,.21,.33,.21,.49v12.56c0,.14-.09,.38-.21,.47l-1.94,1.94c-.09,.12-.33,.21-.47,.21h-5.52Zm4.49-2.48c.14,0,.38-.09,.47-.21l.49-.49c.12-.09,.21-.33,.21-.47V9.67c0-.16-.09-.38-.21-.49l-.49-.49c-.09-.09-.33-.19-.47-.19h-2.01c-.14,0-.28,.12-.28,.28v12.28c0,.14,.14,.28,.28,.28h2.01Z"/>
+					  <path d="M72.98,15.24c.05,.14,.09,.14,.09-.02V6.28c0-.14,.14-.28,.28-.28h1.92c.16,0,.28,.14,.28,.28V23.55c0,.16-.12,.28-.28,.28h-1.54c-.16,0-.33-.12-.38-.26l-3.6-10.04c-.07-.14-.09-.12-.09,.02v9.99c0,.16-.14,.28-.28,.28h-1.92c-.16,0-.28-.12-.28-.28V6.3c0-.16,.12-.28,.28-.28h1.92c.16,0,.33,.12,.38,.26l3.23,8.96Z"/>
+					  <path d="M85.05,8.25c0,.16-.14,.28-.28,.28h-4.12c-.16,0-.28,.12-.28,.28v3.32c0,.16,.12,.28,.28,.28h3.11c.14,0,.28,.14,.28,.28v1.92c0,.16-.14,.28-.28,.28h-3.11c-.16,0-.28,.14-.28,.28v5.9c0,.16,.12,.28,.28,.28h4.12c.14,0,.28,.12,.28,.28v1.92c0,.16-.14,.28-.28,.28h-6.6c-.17,0-.28-.12-.28-.28V6.33c0-.17,.12-.28,.28-.28h6.6c.14,0,.28,.12,.28,.28v1.92Z"/>
+					  <path d="M97.45,16.76c.02,.14,.07,.14,.1,0l1.87-10.48c.02-.14,.16-.26,.33-.26h1.94c.17,0,.26,.12,.24,.26l-3.06,17.26c-.02,.16-.17,.28-.33,.28h-2.15c-.16,0-.3-.12-.33-.28l-1.57-9.71c-.02-.16-.07-.16-.09,0l-1.54,9.71c-.02,.16-.19,.28-.33,.28h-2.15c-.16,0-.3-.12-.33-.28l-3.11-17.26c-.02-.14,.07-.26,.23-.26h1.96c.14,0,.31,.12,.33,.26l1.87,10.48c.02,.14,.07,.14,.09,0l1.68-10.48c.02-.14,.05-.26,.07-.26h2.5s.07,.12,.09,.26l1.68,10.48Z"/>
+					  <path d="M112.05,6.23c.09-.12,.33-.21,.47-.21h3.16c.14,0,.35,.09,.47,.21l1.94,1.94c.12,.12,.21,.33,.21,.47v2.43c0,.16-.14,.28-.28,.28h-1.92c-.16,0-.28-.12-.28-.28v-1.4c0-.14-.1-.38-.19-.47l-.52-.49c-.09-.12-.33-.21-.47-.21h-1.1c-.17,0-.38,.1-.47,.21l-.51,.49c-.09,.09-.19,.33-.19,.47v10.5c0,.16,.09,.38,.19,.47l.51,.52c.09,.09,.3,.19,.47,.19h1.1c.14,0,.38-.09,.47-.19l.52-.52c.09-.09,.19-.31,.19-.47v-4.26c0-.16-.12-.28-.28-.28h-1.17c-.17,0-.28-.14-.28-.28v-1.92c0-.16,.12-.28,.28-.28h3.65c.14,0,.28,.12,.28,.28v7.77c0,.14-.09,.38-.21,.47l-1.94,1.97c-.12,.09-.33,.19-.47,.19h-3.16c-.14,0-.37-.09-.47-.19l-1.96-1.97c-.1-.09-.19-.33-.19-.47V8.64c0-.14,.09-.35,.19-.47l1.96-1.94Z"/>
+					  <path d="M126.34,20.67c.11-.12,.19-.33,.19-.49V6.3c0-.16,.14-.28,.28-.28h1.92c.16,0,.28,.12,.28,.28v14.9c0,.16-.09,.38-.19,.49l-1.94,1.94c-.11,.09-.32,.19-.49,.19h-3.14c-.17,0-.37-.09-.49-.19l-1.94-1.94c-.09-.12-.19-.33-.19-.49V6.3c0-.16,.12-.28,.28-.28h1.92c.14,0,.28,.12,.28,.28v13.87c0,.16,.1,.38,.19,.49l.49,.49c.12,.09,.33,.19,.49,.19h1.08c.16,0,.37-.09,.49-.19l.49-.49Z"/>
+					  <path d="M136.07,11.31c.05,.16,.14,.16,.21,0l2.03-5.03c.05-.14,.23-.26,.38-.26h2.13c.14,0,.23,.12,.16,.26l-3.46,8.58c-.05,.14-.1,.4-.1,.54v8.14c0,.16-.14,.28-.28,.28h-1.92c-.16,0-.28-.12-.28-.28V15.45c0-.16-.05-.4-.12-.54l-3.46-8.63c-.07-.14,.02-.26,.16-.26h2.13c.14,0,.33,.12,.38,.26l2.03,5.03Z"/>
+					  <path d="M145.5,6.23c.12-.12,.33-.21,.47-.21h3.16c.16,0,.38,.09,.49,.21l1.94,1.94c.09,.12,.19,.33,.19,.47v2.43c0,.16-.12,.28-.28,.28h-1.92c-.14,0-.28-.12-.28-.28v-1.4c0-.14-.07-.38-.19-.47l-.49-.52c-.12-.09-.33-.19-.49-.19h-1.1c-.14,0-.35,.1-.47,.19l-.49,.51c-.12,.09-.21,.33-.21,.47v2.48c0,.14,.09,.38,.19,.47l.51,.49c.09,.12,.3,.21,.47,.21h2.13c.14,0,.38,.09,.47,.19l1.96,1.94c.09,.12,.19,.33,.19,.49v5.26c0,.14-.1,.38-.19,.47l-1.94,1.97c-.12,.09-.33,.19-.49,.19h-3.16c-.14,0-.35-.09-.47-.19l-1.94-1.97c-.12-.09-.21-.33-.21-.47v-2.99c0-.16,.14-.28,.28-.28h1.92c.16,0,.28,.11,.28,.28v1.97c0,.16,.09,.38,.21,.49l.49,.49c.12,.09,.33,.19,.47,.19h1.1c.16,0,.38-.09,.49-.19l.49-.49c.12-.12,.19-.33,.19-.49v-3.2c0-.16-.07-.37-.19-.49l-.51-.49c-.09-.12-.31-.19-.47-.19h-2.13c-.14,0-.37-.09-.47-.21l-1.96-1.94c-.09-.12-.19-.33-.19-.49v-4.52c0-.14,.1-.35,.21-.47l1.94-1.94Z"/>
+					</svg>
+				</h3>
 				<div class="frame__indicator"></div>
 			</div>
 			<div class="strip-outer">
 				<div class="strip-inner">
 					<div class="draggable"></div>
 					<div class="strip">
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/gowtu.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									Read more
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+							
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-1.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-10.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-11.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-12.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-13.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-14.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-15.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-16.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-17.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-18.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-19.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-2.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-20.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-21.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-22.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-23.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-24.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-25.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-26.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-27.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-28.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-29.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-3.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-30.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-31.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-32.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-33.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-34.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-35.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-36.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-37.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-38.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-39.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-4.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-40.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-41.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-42.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-43.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-44.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-45.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-46.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-47.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-48.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-49.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-5.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-50.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-51.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-52.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-53.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-54.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-55.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-56.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-57.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-58.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-59.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-6.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-60.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-7.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-8.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
+						
+							<div class="strip__item">
+								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-9.jpg');"></div></div>
+								<span class="strip__item-number"><a class="strip__item-link"><span>
+									<!-- Link text goes here. But we'll add that later -->
+								</span></a><span class="strip__item-plus"></span></span>
+							</div>
 						
 					</div><!--/strip-->
 				</div><!--/strip-inner-->
 				<div class="strip-cover">
-					<h2 class="strip-cover__title">Gowtu</h2>
-					<span class="strip-cover__subtitle">2023</span>
+					<h2 class="strip-cover__title">Scroll</h2>
+					<span class="strip-cover__subtitle">GOWTU</span>
 				</div>
 			</div><!--/strip-outer-->
 			<div class="content">
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/gowtu.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<h2 class="content__item-title"></h2>
+							<p class="content__item-text">GOWTU GOLD PLAYS A BIG PART IN THE SURINAMESE CULTURE THAT'S ONE OF THE REASONS WHY IT INTRIGUES ME AND THIS PHOTO SERIE IS CREATED AROUND GOLD. GOWTU IS A SERIE WHERE I CAPTURED DIFFERENT TYPE OF PEOPLE WEARING AND EMBRACING THEIR GOWTU. &quot; GOWTU IS A GOLD CHAIN BETWEEN YOU AND ME, BETWEEN ME AND ME &quot;&quot; GOWTU IS A GOLD CHAIN THAT IS THE SYMBOL OF OUR RELATIONSHIP &quot;&quot; GOWTU IS A GOLD CHAIN THAT CAN BE BROKEN BUT ALSO CAN BE FIXED, BUT SOMETIMES IT CAN NOT BE FIXED.
+</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-1.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-10.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-11.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-12.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-13.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-14.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-15.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-16.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-17.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-18.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-19.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-2.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-20.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-21.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-22.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-23.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-24.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-25.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-26.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-27.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-28.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-29.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-3.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-30.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-31.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-32.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-33.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-34.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-35.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-36.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-37.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-38.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-39.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-4.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-40.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-41.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-42.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-43.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-44.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-45.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-46.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-47.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-48.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-49.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-5.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-50.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-51.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-52.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-53.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-54.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-55.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-56.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-57.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-58.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-59.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-6.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-60.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-7.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-8.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
+				
+					<article class="content__item">
+						<div class="img-outer img-outer--content">
+							<div class="img-inner img-inner--content" style="background-image: url('/static/img/uploads/Hotel Lobi - GOWTU-9.jpg');"></div>
+						</div>
+						<div class="content__item-copy">
+							<p class="content__item-text">Lorem Ipsum Elwin is vervelend</p>
+						</div>
+					</article>
 				
 				<button class="content__close" aria-label="Close content"><svg width="12" height="26" viewBox="0 0 12 26"><path d="M5.293 25H5v-.293l-5-5L.707 19 5 23.293V0h1v23.657L10.657 19l.707.707-5.657 5.657-.025-.025-.025.025L5.293 25z"/></svg></svg></button>
 			</div>
 		</main>
-		<!-- <div class="cursor">
+		<div class="cursor">
 			<div class="cursor__inner cursor__inner--circle">
 				<div class="cursor__side cursor__side--left"></div>
 				<div class="cursor__side cursor__side--right"></div>
 			</div>
-		</div> -->
+		</div>
 		<script src="/static/js/imagesloaded.pkgd.min.js"></script>
 		<script src="/static/js/TweenMax.min.js"></script>
 		<script src="/static/js/draggabilly.pkgd.min.js"></script>

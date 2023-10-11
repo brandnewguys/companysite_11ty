@@ -1,0 +1,21 @@
+#!/bin/bash
+shopt -s nullglob
+
+old_ifs=$IFS
+IFS=$'\n'
+
+rm galleryFrontmatter.txt
+touch galleryFrontmatter.txt
+echo "galleryImages:" >> galleryFrontmatter.txt
+
+files_base=$(find "$1"/*.jpg -execdir echo {} ';')
+for image in $files_base
+
+do
+    cp $1/$image src/static/img/uploads/$image 
+    echo "  - link_text: more" >> galleryFrontmatter.txt
+    echo "    image: /static/img/uploads/$image" >> galleryFrontmatter.txt
+    echo "    description: Lorem Ipsum Elwin is vervelend" >> galleryFrontmatter.txt
+done
+
+IFS=$old_ifs

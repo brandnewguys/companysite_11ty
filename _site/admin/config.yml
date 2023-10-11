@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
+  # name: proxy
   branch: main # Branch to update (optional; defaults to master)
+  # proxy_url: http://localhost:8081/api/v1
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
@@ -69,6 +71,9 @@ collections:
       - {label: "Image", name: "img", widget: "image", allow_multiple: false}
       - {label: "Url", name: "url", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", default: "hotel-lobi"}
+      - label: Body
+        name: body
+        widget: markdown
       - label: "Gallery"
         name: "galleryImages"
         widget: "list"

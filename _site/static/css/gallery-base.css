@@ -10,9 +10,9 @@
 
 body {
 	--color-text: #767676;
-	--color-bg: #000;
-	--color-link: #c35340;
-	--color-link-hover: #fff;
+	--color-bg: #ededed;
+	--color-link: #000;
+	--color-link-hover: #ededed;
 	--color-cover: #c35340;
 	--color-copy: #767676;
 	--color-content-title: #c35340;
@@ -29,6 +29,10 @@ body {
 	display: none;
 }
 
+svg#bng {
+	fill: black;
+	width: 75px;
+}
 /* Page Loader */
 .js .loading::before {
 	content: '';
