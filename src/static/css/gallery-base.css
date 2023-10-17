@@ -8,18 +8,38 @@
 	font-size: 15px;
 }
 
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/FoundersGrotesk-Regular.woff') format('woff'),
+        url('../fonts/FoundersGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Text';
+    src: url('../fonts/CanelaText-Thin.woff2') format('woff2'),
+        url('../fonts/CanelaText-Thin.woff') format('woff'),
+        url('../fonts/CanelaText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
 	--color-text: #767676;
 	--color-bg: #ededed;
 	--color-link: #000;
-	--color-link-hover: #ededed;
-	--color-cover: #c35340;
+	--color-link-hover: #001;
+	--color-cover: #44573E;
 	--color-copy: #767676;
-	--color-content-title: #c35340;
+	--color-content-title: #d5d7ce;
 	--color-indicator: #1b1b1b;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: ff-more-web-pro, serif;
+	font-family: 'Founders Grotesk', serif;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -114,6 +134,7 @@ main {
 .frame__links {
 	display: flex;
 	margin: 0.5rem 0;
+    align-items: baseline;
 }
 
 .frame__links a {
@@ -303,7 +324,7 @@ main {
 }
 
 .strip-cover__title {
-	font-family: fleisch-wolf, sans-serif;
+	font-family: 'Founders Grotesk', sans-serif;
 	font-weight: 400;
 	font-size: 20vw;
 	margin: 0;
@@ -318,6 +339,7 @@ main {
 .strip-cover__subtitle {
 	font-size: 1.5rem;
 	margin: 0;
+	font-family: 'Canela Text';
 }
 
 .content {
