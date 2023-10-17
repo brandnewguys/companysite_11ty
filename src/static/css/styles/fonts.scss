@@ -17,3 +17,23 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/FoundersGrotesk-Regular.woff') format('woff'),
+        url('../fonts/FoundersGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Text';
+    src: url('../fonts/CanelaText-Thin.woff2') format('woff2'),
+        url('../fonts/CanelaText-Thin.woff') format('woff'),
+        url('../fonts/CanelaText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}

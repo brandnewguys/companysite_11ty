@@ -14,6 +14,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: Founders Grotesk;
+  src: url("FoundersGrotesk-Regular.edbb5213.woff2") format("woff2"), url("FoundersGrotesk-Regular.9e0130a1.woff") format("woff"), url("FoundersGrotesk-Regular.cddf5174.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Canela Text;
+  src: url("CanelaText-Thin.26d4d5fa.woff2") format("woff2"), url("CanelaText-Thin.3f770687.woff") format("woff"), url("CanelaText-Thin.4060907c.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-black: #000;
   --color-grey-darker: #3e3f3f;
@@ -21,9 +37,9 @@
   --color-grey: #f7f5f4;
   --color-white: #fff;
   --font-f-serif: "Saol Display";
-  --font-f-serif: "Recoleta";
-  --font-f-sans-light: "neue-haas-grotesk-display";
-  --font-f-sans: "neue-haas-grotesk-text";
+  --font-f-serif: "Canela Text";
+  --font-f-sans-light: "Canela Text";
+  --font-f-sans: "Founders Grotesk";
   --font-s-heading-sm: 8.333vw;
   --lh-heading-sm: 10.556vw;
   --font-s-chapeau-md: 3.444vw;

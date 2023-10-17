@@ -29,6 +29,7 @@
 
 	const DOM = {
 		intro: document.querySelector('.intro'),
+		menu: document.querySelector('.menu'),
 		slideshowImagesWrappers: document.querySelectorAll('.slideshow__item-img'),
 		slideshowImages: document.querySelectorAll('.slideshow__item-img-inner')
 	};
