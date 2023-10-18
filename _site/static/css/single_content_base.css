@@ -31,6 +31,7 @@
 	--color-link: #fff;
 	--color-link-hover: #fff;
 	--page-padding: 5rem 4rem;
+	--page-padding-mobile: 5rem 1rem;
 	--color-quote: #567b63;
 
 	--color-text: #111;
@@ -191,13 +192,13 @@ main {
 
 .frame {
 	color: var(--color-title);
-	padding: var(--page-padding);
+	padding: var(--page-padding-mobile);
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto auto;
 	grid-template-areas: 'title' 'prev' 'demos' 'sponsor';
 	justify-content: start;
-	justify-items: end;
+	justify-items: center;
 	margin-bottom: 3rem;
 	grid-gap: 0.5rem;
 	align-items: start;
@@ -224,9 +225,7 @@ main {
 	transform-origin: 0% 50%;
 }
 
-.frame a.frame__logo {
-	margin-right: 3em;
-}
+
 .frame a.frame__logo::before {
 	background: none;
 } 
@@ -337,7 +336,7 @@ iframe {
 	flex-direction: column;
 	width: 100vw;
 	position: relative;
-	padding: var(--page-padding);
+	padding: var(--page-padding-mobile);
 }
 
 .content:last-child {
@@ -573,11 +572,16 @@ blockquote.splitting p {
 @media screen and (min-width: 53em) {
 	.frame {
 		justify-items: start;
+		padding: --page-padding;
 		grid-gap: 2rem;
 		grid-template-columns: auto auto 1fr auto;
 		grid-template-rows: auto;
 		grid-template-areas: 'title prev demos sponsor';
 	}
+	.content {
+		padding: var(--page-padding);
+	}
+
 	.frame__demos {
 		justify-self: end;
 	}
