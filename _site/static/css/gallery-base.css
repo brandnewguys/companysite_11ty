@@ -326,7 +326,7 @@ main {
 .strip-cover__title {
 	font-family: 'Founders Grotesk', sans-serif;
 	font-weight: 400;
-	font-size: 20vw;
+	font-size: 15vw;
 	margin: 0;
 	line-height: 1;
 	-webkit-text-stroke: 1px var(--color-cover);
