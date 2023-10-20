@@ -43,12 +43,12 @@
 					
 				</div>
 				<div class="slideshow">
-					{%- for post in collections.hotel-lobi limit:1 reversed -%}
+					{%- for post in collections.hotel-lobi reversed limit:10 -%}
 						<div class="slideshow__item slideshow__item--featured">
 						<div class="slideshow__item-img slideshow__item-img--larger">
 							<div class="slideshow__item-img-inner" style="background-image: url( /static/img/uploads/{{ post.data.img }} );"></div>
 						</div>
-						<span class="slideshow__item-number">#1</span>
+						{% if post.data.galleryImages.size > 10 %}<span class="slideshow__item-number"><a href="{{ post.url }}">View Gallery</a></span>{% endif %}
 						<div class="slideshow__item-titlewrap slideshow__item-titlewrap--featured">
 							<h3 class="slideshow__item-title slideshow__item-title--larger">{{ post.data.title }}</h3>
 							<p class="slideshow__item-subtitle">an exhibition by <a target="_blank" href="{{ post.data.url }}">{{ post.data.host }}</a></p>
@@ -56,20 +56,7 @@
 						</div>
 					</div>
 					{%- endfor -%}
-					
-					{%- for post in collections.hotel-lobi offset:1 -%}
-					<div class="slideshow__item">
-						<div class="slideshow__item-img">
-							<div class="slideshow__item-img-inner" style="background-image: url(/static/img/uploads/{{ post.data.img }});"></div>
-						</div>
-						<span class="slideshow__item-number">#2</span>
-						<div class="slideshow__item-titlewrap">
-							<h3 class="slideshow__item-title">Building Beyond</h3>
-							<p class="slideshow__item-subtitle">by Stimuleringsfonds</p>
-							<p class="slideshow__item-date">13 october 2023 </p>
-						</div>
-					</div>
-					{%- endfor -%}
+						
 
 					<nav class="slideshow__nav">
 						<button class="slideshow__nav-item slideshow__nav-item--current">1</button>
