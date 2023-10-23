@@ -1,181 +1,64 @@
 galleryImages:
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-1.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-1-min_18_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-10.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-10-min_15_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-11.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-11-min_16_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-12.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-12-min_17_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-13.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-13-min_5_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-14.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-14-min_7_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-15.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-15-min_8_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-16.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-16-min_9_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-17.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-17-min_10_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-18.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-18-min_11_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-19.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-19-min_1_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-2.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-2-min_19_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-20.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-20-min_2_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-21.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-21-min_3_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-22.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-22-min_4_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-23.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-23-min_6_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-24.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-3-min_20_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-25.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-5-min_21_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-26.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-7-min_12_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-27.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-8-min_13_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
   - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-28.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-29.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-3.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-30.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-31.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-32.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-33.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-34.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-35.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-36.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-37.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-38.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-39.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-4.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-40.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-41.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-42.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-43.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-44.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-45.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-46.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-47.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-48.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-49.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-5.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-50.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-51.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-52.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-53.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-54.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-55.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-56.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-57.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-58.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-59.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-6.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-60.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-7.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-8.jpg
-    description: Lorem Ipsum Elwin is vervelend
-  - link_text: more
-    image: /static/img/uploads/Hotel Lobi - GOWTU-9.jpg
+    image: /static/img/uploads/Hotel Lobi - Building beyond-9-min_14_11zon.jpg
     description: Lorem Ipsum Elwin is vervelend
