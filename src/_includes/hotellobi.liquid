@@ -52,7 +52,7 @@
 						<div class="slideshow__item-titlewrap slideshow__item-titlewrap--featured">
 							<h3 class="slideshow__item-title slideshow__item-title--larger">{{ post.data.title }}</h3>
 							<p class="slideshow__item-subtitle">an exhibition by <a target="_blank" href="{{ post.data.url }}">{{ post.data.host }}</a></p>
-							<p class="slideshow__item-date">{{ post.data.date | date: "%b %d %y"}} </p>
+							<p class="slideshow__item-date">{{ post.data.date | date: "%b %d %Y"}} </p>
 						</div>
 					</div>
 					{%- endfor -%}
@@ -117,7 +117,7 @@
 					</h1>
 					<div class="intro__subtitle-wrap animatable">
 						<h3 class="intro__subtitle">Next-up:</h3>
-						<p class="intro__info"><a class="intro__enter animatable">BUILDING BEYOND</a></p>
+						<p class="intro__info"><a class="intro__enter animatable">{{ collections.hotel-lobi.last.data.title }}</a></p>
 					</div>
 					<!-- <div class="codrops-links animatable">
 						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GridLayoutMotion/" title="Previous Demo"></a>
