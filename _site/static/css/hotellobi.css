@@ -349,6 +349,8 @@ main {
 }
 
 .slideshow__item-number {
+	font-family: 'Founders Grotesk';
+	color: #44573E;
 	position: absolute;
 	top: 0;
 	right: 0;

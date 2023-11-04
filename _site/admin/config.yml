@@ -8,8 +8,8 @@ backend:
     - editor
   # repo: brandnewguys/companysite_11ty # Path to your GitHub repository
 # This line should *not* be indented
-publish_mode: editorial_workflow
-logo_url: https://brandnewguys.co/img/bng-black.svg
+  publish_mode: editorial_workflow
+logo_url: /static/img/bng-black.svg
 local_backend: true
 
 # This line should *not* be indented
@@ -68,12 +68,15 @@ collections:
       - {label: "Layout", name: "layout", default: "event_gallery", widget: hidden}
       - {label: "Title", name: title, widget: "string"}
       - {label: "Host", name: host, widget: "string"}
+      - {label: "Deepcut", name: deepcut, widget: "string", required: false}
       - {label: "Image", name: "img", widget: "image", allow_multiple: false}
       - {label: "Url", name: "url", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", default: "hotel-lobi"}
       - label: Body
         name: body
         widget: markdown
+        pattern: ['.{5,50}', "Must have 5 - 50 characters"]
+      - {label: "Gallery Download", name: "galleryDownload", widget: "string", required: false}
       - label: "Gallery"
         name: "galleryImages"
         widget: "list"
