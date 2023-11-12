@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.typekit.net/ugp0unb.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/gallery-base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 	</head>
 	<body class="loading">
 		<main>
@@ -46,154 +47,199 @@
 					<div class="draggable"></div>
 					<div class="strip">
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/building-beyond.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<div class="img-inner" style="background-image:url('/static/img/uploads/building-beyond.jpg');"></div>
+									<!-- <img class="img-inner" src="/static/img/uploads/building-beyond.jpg" /> -->
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									Read more
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 							
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-1-min_18_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-1-min_18_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 1"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-10-min_15_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-10-min_15_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 2"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-11-min_16_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-11-min_16_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 3"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-12-min_17_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-12-min_17_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 4"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-13-min_5_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-13-min_5_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 5"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-14-min_7_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-14-min_7_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 6"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-15-min_8_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-15-min_8_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 7"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-16-min_9_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-16-min_9_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 8"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-17-min_10_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-17-min_10_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 9"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-18-min_11_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-18-min_11_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 10"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-19-min_1_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-19-min_1_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 11"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-2-min_19_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-2-min_19_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 12"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-20-min_2_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-20-min_2_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 13"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-21-min_3_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-21-min_3_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 14"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-22-min_4_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-22-min_4_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 15"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-23-min_6_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-23-min_6_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 16"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-3-min_20_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-3-min_20_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 17"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-5-min_21_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-5-min_21_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 18"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-7-min_12_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-m">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-7-min_12_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 19"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-8-min_13_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-8-min_13_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 20"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 						
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - Building beyond-9-min_14_11zon.jpg');"></div></div>
+								<div class="img-outer img-outer--size-xl">
+									<img class="img-inner" src="/static/img/uploads/Hotel Lobi - Building beyond-9-min_14_11zon.jpg" alt="Building Beyond by Stimuleringsfonds 21"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>

@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.typekit.net/ugp0unb.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/gallery-base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 	</head>
 	<body class="loading">
 		<main>
@@ -46,14 +47,19 @@
 					<div class="draggable"></div>
 					<div class="strip">
 							<div class="strip__item">
-								<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('/static/img/uploads{{ img }}');"></div></div>
+								<div class="img-outer img-outer--size-l">
+									<div class="img-inner" style="background-image:url('/static/img/uploads{{ img }}');"></div>
+									<!-- <img class="img-inner" src="/static/img/uploads{{ img }}" /> -->
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									Read more
 								</span></a><span class="strip__item-plus"></span></span>
 							</div>
 							{% for galleryItem in galleryImages %}
 							<div class="strip__item">
-								<div class="img-outer {% cycle 'img-outer--size-s': 'img-outer--size-m', 'img-outer--size-l', 'img-outer--size-xl' %}"><div class="img-inner" style="background-image:url('{{ galleryItem.image }}');"></div></div>
+								<div class="img-outer {% cycle 'img-outer--size-s': 'img-outer--size-m', 'img-outer--size-l', 'img-outer--size-xl' %}">
+									<img class="img-inner" src="{{ galleryItem.image }}" alt="{{ title }} by {{ host }} {{ forloop.index }}"/>
+								</div>
 								<span class="strip__item-number"><a class="strip__item-link"><span>
 									<!-- Link text goes here. But we'll add that later -->
 								</span></a><span class="strip__item-plus"></span></span>

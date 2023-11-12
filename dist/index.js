@@ -142,10 +142,10 @@
       this[globalName] = mainExports;
     }
   }
-})({"j1gzK":[function(require,module,exports) {
+})({"3F7mi":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 49419;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 module.bundle.HMR_BUNDLE_ID = "9f039dfbb9b2a914";
@@ -6091,6 +6091,6 @@ parcelHelpers.export(exports, "clamp", ()=>clamp);
 const lerp = (a, b, n)=>(1 - n) * a + n * b;
 const clamp = (val, min, max)=>Math.max(Math.min(val, min), max);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1xbik":[function() {},{}]},["j1gzK","gW0BX"], "gW0BX", "parcelRequire4214")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1xbik":[function() {},{}]},["3F7mi","gW0BX"], "gW0BX", "parcelRequire4214")
 
 //# sourceMappingURL=index.js.map
