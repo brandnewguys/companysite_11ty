@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff'),
+        url('../fonts/Recoleta-RegularDEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Recoleta", serif;
+  color: #333333;
+  background-color: #d5d7ce;
+}
+
+/* -------------------------------- 
+
+Icons Filling Effect - by CodyHouse.co
+
+-------------------------------- */
+header, footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #d5d7ce;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  padding: 10em 1em 3em;
+  font-family: 'Recoleta';
+  color: #333333;
+}
+
+header h1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+header h2 {
+  font-size: 12px;
+  margin: 2em 0;
+}
+header img.logo { margin: 2em ; max-width: 136px;}
+header a { margin: 2em 0; color: #333333; }
+header p {margin-top: 30px; font-size: 14px; }
+
+.embedded-player {
+    margin: 1em 0;
+}
+
+.links {
+  width: 100%;
+}
+.links ul {
+    width: 100%;
+    display: inline-block;
+    margin: 3em 0;
+}
+
+.links ul li {
+    display: inline;
+    padding: 0.5em 0.3em;
+}
+
+.links li img {
+    max-width: 100px;
+}
+
+footer {
+  position: relative;
+  height: 50vh;
+  padding-bottom: 10em;
+  background: #d5d7ce;
+  z-index: 2;
+}
+
+.content {
+  /* padding: 1em; */
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+footer img { max-width: 125px; }
+footer p {max-width: 540px ; margin: 2em ; color: #333333; }
+footer .links { border-bottom: 1px solid #7171718c; max-width: 1170px; }

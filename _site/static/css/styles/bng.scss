@@ -1,0 +1,54 @@
+.logo {
+	padding-top: 20px;
+	max-width: 200px;
+}
+
+a-scene {
+	position: absolute;
+}
+
+main, section.content {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.a-dialog-text { color: black; }
+
+sup	{
+	font-size: 0.5em;
+}
+
+.tbc {
+	pointer-events: none;
+	cursor: wait;
+}
+
+#bng-logo {
+	fill: black;
+	max-width: 150px;	
+}
+
+@media screen and (min-width: 1080px) {
+	body {
+		color: black
+	}
+	a {
+		color: black;
+	}
+    a-scene {
+      display: none;
+    }
+
+    #bng-logo {
+    	max-width: 250px;	
+		fill: black;
+	}
+}
+
