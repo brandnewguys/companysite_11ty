@@ -43,7 +43,7 @@
 					
 				</div>
 				<div class="slideshow">
-					{%- for post in collections.hotel-lobi reversed limit:10 -%}
+					{%- for post in collections.hyperspace reversed limit:10 -%}
 						<div class="slideshow__item slideshow__item--featured">
 						<div class="slideshow__item-img slideshow__item-img--larger">
 							<div class="slideshow__item-img-inner" style="background-image: url( /static/img/uploads/{{ post.data.img }} );"></div>
@@ -117,7 +117,7 @@
 					</h1>
 					<div class="intro__subtitle-wrap animatable">
 						<h3 class="intro__subtitle">Next-up:</h3>
-						<p class="intro__info"><a class="intro__enter animatable">{{ collections.hotel-lobi.last.data.title }}</a></p>
+						<p class="intro__info"><a class="intro__enter animatable">{{ collections.hyperspace.last.data.title }}</a></p>
 					</div>
 					<!-- <div class="codrops-links animatable">
 						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GridLayoutMotion/" title="Previous Demo"></a>
@@ -155,6 +155,6 @@
 			</div>
 		</main>
 		<script src="/static/js/anime.min.js"></script>
-		<script src="/static/js/blackhyperspace.js"></script>
+		<script src="/static/js/hyperspace.js"></script>
 	</body>
 </html>

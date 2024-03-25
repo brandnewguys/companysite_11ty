@@ -6,7 +6,7 @@ img: /building-beyond.jpg
 layout: event_gallery.liquid
 url: https://www.stimuleringsfonds.nl/nieuws/mentorship-building-beyond
 tags:
-  - blackhyperspace
+  - hyperspace
 galleryImages:
   - link_text: more
     image: /static/img/uploads/Hotel Lobi - Building beyond-1-min_18_11zon.jpg

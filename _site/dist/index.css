@@ -220,7 +220,7 @@ body {
   font-family: var(--font-f-sans);
   font-size: var(--font-s-body);
   line-height: var(--lh-body);
-  color: var(--color-grey-darker);
+  color: var(--color-white);
   font-weight: 400;
 }
 
@@ -407,7 +407,7 @@ sup {
 }
 
 #bng-logo {
-  fill: #000;
+  fill: #fff;
   max-width: 150px;
 }
 

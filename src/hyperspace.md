@@ -1,5 +1,5 @@
 ---
-layout: blackhyperspace.liquid
+layout: hyperspace.liquid
 ---
 
 Drinks, music and a space to collide. Check-out, check-in.
