@@ -12,6 +12,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/static/lab" : "/lab" });
   eleventyConfig.addPassthroughCopy({ "src/static/sangria" : "/sangria" });
   eleventyConfig.addPassthroughCopy({ "src/static/hyperspace" : "/hyperspace" });
+  eleventyConfig.addPassthroughCopy({ "src/static/newwest" : "/newwest" });
   eleventyConfig.addPassthroughCopy("src/static/store");
   eleventyConfig.addPassthroughCopy({ "src/static/utils": "static/js/utils" });
   // copy Parcel output to _site folder
