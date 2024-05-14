@@ -609,6 +609,7 @@ main {
 }
 
 svg#hyperspace-logo {
+    max-width: 80%;
     width: 600px;
     fill: #fff;
 }
