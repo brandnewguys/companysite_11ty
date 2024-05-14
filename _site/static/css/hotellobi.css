@@ -11,6 +11,10 @@
     font-display: swap;
 }
 
+canvas {
+	width: 100% !important;
+	height: 100% !important;
+}
 @font-face {
     font-family: 'Founders Grotesk';
     src: url('../fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
@@ -46,7 +50,7 @@ body {
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-logo-bg: #44573E;
-	font-family: 'Canela', monospace;
+	font-family: 'Founders Grotesk', monospace;
 	letter-spacing: 1px;
 	height: 100vh;
 	color: var(--color-text);
@@ -256,6 +260,7 @@ main {
 	text-align: center;
 	max-width: 300px;
 	margin: 0 auto;
+	color: white;
 }
 
 .intro__content--second {
@@ -287,6 +292,7 @@ main {
 	justify-content: center;
 	position: relative;
 	font-size: 0.85rem;
+	color: white;
 }
 
 .intro__social {
@@ -301,6 +307,7 @@ main {
 .intro__social-item {
 	text-transform: lowercase;
 	margin: 0 1rem;
+	color: white;
 }
 
 .sidebar {
@@ -517,6 +524,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
+		color: white;
 	}
 	.intro__enter {
 		margin: auto 0 0 0;
@@ -600,9 +608,9 @@ main {
 	}
 }
 
-svg#hl-logo {
-    width: 175px;
-    fill: #FDEFCD;
+svg#hyperspace-logo {
+    width: 600px;
+    fill: #fff;
 }
 
 a.intro__enter.animatable {

@@ -2,5 +2,4 @@
 layout: hyperspace.liquid
 ---
 
-Drinks, music and a space to collide. Check-out, check-in.
-But do it with Love.
+hyperspace or wormholes: a funnel-shaped space-time tunnel between two points in the universe created by a high concentration of energy.
