@@ -23,7 +23,7 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20240530T182505Z
+DTSTAMP:20240530T191832Z
 UID:1717092991921-67606@ical.marudot.com
 DTSTART;TZID=Europe/Brussels:20240606T183000
 DTEND;TZID=Europe/Brussels:20240606T210000
@@ -31,10 +31,5 @@ SUMMARY:Newwest - pre-exhibition dinner
 URL:https://maps.app.goo.gl/L2h6bkJsRa52GK3y5
 DESCRIPTION:Brand New Guys is hosting a pre-exhibition dinner to celebrate the first edition of the 'zine "New West" and its companion exhibition at De Kromme Elleboog in Rotterdam.
 LOCATION:De Kromme Elleboog 35\, Rotterdam
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Newwest - pre-exhibition dinner
-TRIGGER:-P1D
-END:VALARM
 END:VEVENT
 END:VCALENDAR
