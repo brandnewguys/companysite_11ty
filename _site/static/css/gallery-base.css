@@ -337,9 +337,9 @@ main {
 }
 
 .strip-cover__subtitle {
-	font-size: 1.5rem;
+	font-size: 0.5rem;
 	margin: 0;
-	font-family: 'Canela Text';
+	font-family: 'Founders Grotesk';
 }
 
 .content {
@@ -505,7 +505,7 @@ main {
 		text-stroke: 2px var(--color-cover);
 	}
 	.strip-cover__subtitle {
-		font-size: 3rem;
+		font-size: 1.5rem;
 	}
 }
 
