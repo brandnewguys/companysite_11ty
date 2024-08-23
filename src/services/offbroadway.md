@@ -21,13 +21,6 @@ contentBlocks:
       lack the network and lingo to act on them effectively.
     link_url_1: ""
     link_url_2: ""
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: hi
-    link_text_2: hi
-    bg_image: /bng-dar-yuro-s-resonance-59.jpg
-    link_url_2: google.com
-    link_url_1: google.com
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -39,6 +32,13 @@ contentBlocks:
       sacrifice authenticity for profit.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: hi
+    link_text_2: hi
+    bg_image: /bng-dar-yuro-s-resonance-59.jpg
+    link_url_2: google.com
+    link_url_1: google.com
   - blocktitle: ""
     blockquote: quote
     link_text_1: hoi ik ben cye
