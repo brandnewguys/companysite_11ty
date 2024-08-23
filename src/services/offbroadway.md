@@ -33,7 +33,7 @@ contentBlocks:
     link_url_1: ""
     link_url_2: ""
   - blocktitle: ""
-    blockquote: quote
+    blockquote: ""
     link_text_1: hi
     link_text_2: hi
     bg_image: /Hotel Lobi - GOWTU-13.jpg
