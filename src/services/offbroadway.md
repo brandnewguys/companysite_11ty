@@ -57,6 +57,11 @@ contentBlocks:
     bg_image: /bng-breitling-x-yfa-38.jpg
     link_url_1: google.com
     link_url_2: google.com
+  - blocktitle: Block title
+    blockquote: quote
+    link_text_1: link 1
+    link_text_2: link 1
+    bg_image: /bng-dar-yuro-s-resonance-59.jpg
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
