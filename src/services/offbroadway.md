@@ -30,7 +30,7 @@ contentBlocks:
     link_text_1: ""
     link_text_2: ""
     logo: false
-    blocktitle: null
+    blocktitle: "3"
     blockquote: ""
     contentbody: Meanwhile, cultural influencers deeply connect with their audience
       but often lack the resources to deliver the high- quality productions they
@@ -38,11 +38,11 @@ contentBlocks:
     link_url_1: ""
     link_url_2: ""
   - bg_video: ""
-    bg_image: /bng-dar-yuro-s-resonance-17.jpg
+    bg_image: ""
     link_text_1: ""
     link_text_2: ""
     logo: false
-    blocktitle: "2"
+    blocktitle: ""
     blockquote: ""
     contentbody: The intersection of these *seemingly* segregated worlds, is where
       the magic happens. Under our creative direction we define the contours of
