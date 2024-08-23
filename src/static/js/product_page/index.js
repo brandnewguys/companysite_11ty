@@ -58,8 +58,8 @@ const init = () => {
     scroll(); // Apply scroll-triggered animations
 };
 
-preloadImages('.content__img').then(() => {
-    // Once images are preloaded, remove the 'loading' indicator/class from the body
-    document.body.classList.remove('loading');
-    init();
-});
+// preloadImages('.content__img').then(() => {
+//     // Once images are preloaded, remove the 'loading' indicator/class from the body
+//     document.body.classList.remove('loading');
+//     init();
+// });

@@ -30,9 +30,9 @@ sup	{
 	cursor: wait;
 }
 
-#bng-logo {
-	fill: white;
-	max-width: 150px;	
+.frame svg {
+	width: 150px;
+	fill: var(--menu);
 }
 
 @media screen and (min-width: 1080px) {

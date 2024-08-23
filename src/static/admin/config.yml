@@ -58,6 +58,31 @@ collections:
       - {label: "Image", name: "img", widget: "image", allow_multiple: false}
       - {label: "Url", name: "url", widget: "string"}
 
+  - label: "Product pages"
+    name: "products"
+    folder: "/src/services"
+    create: true
+    slug: "{{ title }}"
+    fields:
+      - {label: "Title", name: title, widget: "string"}
+      - {label: "TL:DR", name: tldr, widget: "string", required: false}
+      - {label: "Layout", name: layout, widget: "hidden", default: "product_page.liquid"}
+      - {label: "Body", name: body, widget: "markdown"}
+      - label: "Content blocks"
+        name: "contentBlocks"
+        widget: "list"
+        fields:
+          - { label: "Block Title", name: "blocktitle", widget: "string", default: "Block title", required: false }
+          - { label: "Content", name: "contentbody", widget: markdown, required: false }
+          - { label: "Quote", name: "blockquote", widget: "string", default: "quote", required: false }
+          - { label: "Background Image", name: "bg_image", widget: image, required: false }
+          - { label: "Background Video", name: "bg_video", widget: file, required: false }
+          - { label: "Link url 1", name: "link_url_1", widget: "string", required: false }
+          - { label: "Link text 1", name: "link_text_1", widget: "string", default: "link 1", required: false }
+          - { label: "Link url 2", name: "link_url_2", widget: "string", required: false }
+          - { label: "Link text 2", name: "link_text_2", widget: "string", default: "link 1", required: false }
+          - { label: "Show Logo?", name: "logo", widget: "boolean", required: false }
+
   - label: "Events"
     name: "events"
     folder: "/src/events"
@@ -130,3 +155,10 @@ collections:
         file: "/src/becam.md"
         fields:
           - {label: "Dropbox link", name: "dropbox_link", widget: "string"}
+
+      - label: "Culture"
+        name: "culture"
+        file: "/src/culture.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "culture.html", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}

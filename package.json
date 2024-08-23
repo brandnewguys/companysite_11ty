@@ -21,6 +21,8 @@
     "sass": "^1.26.12"
   },
   "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@studio-freight/lenis": "^1.0.12",
     "browsersync": "^0.0.1-security",
     "eleventy-plugin-local-images": "^0.4.1",

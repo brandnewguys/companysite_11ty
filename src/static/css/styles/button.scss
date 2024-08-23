@@ -1,3 +1,13 @@
+button.button-slider-open::before {
+    content: "menu";
+    position: absolute;
+    right: 110%;
+    top: 30%;
+    font-size: 14px;
+    color: var(--menu);
+    font-family: "Founders Grotesk";
+}
+
 .button {
   display: flex;
   align-items: center;

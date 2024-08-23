@@ -36,6 +36,7 @@
   --color-grey-dark: #3e3f3f;
   --color-grey: #f7f5f4;
   --color-white: #fff;
+  --menu: #000;
   --font-f-serif: "Saol Display";
   --font-f-serif: "Canela Text";
   --font-f-sans-light: "Canela Text";
@@ -196,11 +197,9 @@ select {
 
 html, body {
   height: 100%;
-  overflow: hidden;
 }
 
 body {
-  overscroll-behavior-y: none;
   margin: 0;
 }
 
@@ -234,6 +233,16 @@ body {
 
 .container.is-centered {
   align-items: center;
+}
+
+button.button-slider-open:before {
+  content: "menu";
+  color: var(--menu);
+  font-family: Founders Grotesk;
+  font-size: 14px;
+  position: absolute;
+  top: 30%;
+  right: 110%;
 }
 
 .button {
@@ -406,9 +415,9 @@ sup {
   cursor: wait;
 }
 
-#bng-logo {
-  fill: #fff;
-  max-width: 150px;
+.frame svg {
+  width: 150px;
+  fill: var(--menu);
 }
 
 @media screen and (width >= 1080px) {
@@ -432,7 +441,6 @@ sup {
   z-index: 2;
   width: 16.667vw;
   height: 16.667vw;
-  background-color: var(--color-white);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -443,7 +451,7 @@ sup {
 .button-slider-open__icon {
   width: 2.689vw;
   height: 3.228vw;
-  fill: var(--color-grey-darker);
+  fill: var(--menu);
 }
 
 @media (hover: hover) {
@@ -563,7 +571,7 @@ sup {
 .placeholders {
   top: 40%;
   right: calc(var(--col-2) * -1.5);
-  z-index: 1;
+  z-index: 2;
   width: var(--col-9);
   overflow: unset;
   visibility: hidden;
@@ -622,7 +630,7 @@ sup {
   visibility: hidden;
   opacity: 0;
   will-change: transform;
-  position: sticky;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -714,7 +722,7 @@ sup {
     overflow-x: unset;
     align-items: center;
     display: flex;
-    position: absolute;
+    position: fixed;
   }
 
   .slider__button-close {
@@ -795,7 +803,7 @@ sup {
 
 .is-device .slider {
   height: calc(var(--vh, 1vh) * 100);
-  position: sticky;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;

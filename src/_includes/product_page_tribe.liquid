@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ title }}</title>
+		<meta name="description" content="Simple on-scroll animations for connected grid items" />
+		<meta name="keywords" content="on-scroll, animation, gsap, scrolltrigger, css, grid, layout, effect" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link rel="stylesheet" type="text/css" href="/dist/index.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/product_page.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/tribe.css" />
+	</head>
+	<body>
+		{% include 'header_nav.html' %}
+		<main class="service js-content">
+			<div class="content content--highlight content--intro">
+				<div class="hero">
+					<h2 class="content__title">{{ title }}</h2>
+					<p class="text-meta">{{ tldr }}</p>
+				</div>
+				<p class="text-large">{{ content | strip_html}}</p>
+			</div>
+			<div class="grid">
+			    <figure class="grid__item" style="--r: 1;--c: 1;--s:4;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-25.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Warm Oasis Retreat</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 2;--c: 5;--s:3;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-2.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Desert Serenity Suites</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 3;--c: 3;--s:2;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-3.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Sandscape Elegance</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 4;--c: 1;--s:2;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-4.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Dune Mirage Retreat</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 5;--c: 3;--s:5;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-5.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Sahara Luxury Oasis</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 6;--c: 2;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-6.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Arabian Haven</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 7;--c: 3;--s:3;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-7.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Desert Dreamscape Lodges</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 8;--c: 6;--s:2;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-8.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Golden Sands Interiors</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 9;--c: 1;--s:5;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-9.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Desert Mirage Suites</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 10;--c: 6;--s:3;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-10.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Oasis Tranquility</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 11;--c: 4;--s: 2;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-11.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Desert Zen Retreat</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 12;--c: 1;--s:3;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-12.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Sandscape Luxury</h3> </figcaption>
+			    </figure>
+			    <figure class="grid__item" style="--r: 13;--c: 4;--s: 5;">
+			        <div class="grid__item-img">
+			            <div class="grid__item-img-inner" style="background-image:url('/static/img/uploads/Hotel Lobi - GOWTU-13.jpg');"></div>
+			        </div>
+			        <figcaption class="grid__item-caption"><h3>Desert Elegance Escapes</h3> </figcaption>
+			    </figure>
+			</div>
+			{% include 'cta-footer.html' %}
+		</main>
+		<script src="/dist/index.js"></script>
+		<script src="/static/js/product_page/gsap.min.js"></script>
+		<script src="/static/js/product_page/ScrollTrigger.min.js"></script>
+		<script src="/static/js/product_page/lenis.min.js"></script>
+		<script src="/static/js/imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="/static/js/product_page/tribe.js"></script>
+
+	</body>
+</html>
