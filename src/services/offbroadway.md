@@ -14,6 +14,14 @@ contentBlocks:
       lack the network and lingo to act on them effectively.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: google.com
+    link_text_2: google.com
+    bg_video: ""
+    link_url_1: hi
+    link_url_2: hi
+    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -64,14 +72,6 @@ contentBlocks:
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: google.com
     link_url_1: google.com
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: google.com
-    link_text_2: google.com
-    bg_video: ""
-    link_url_1: hi
-    link_url_2: hi
-    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
