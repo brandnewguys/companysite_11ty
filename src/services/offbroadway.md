@@ -64,6 +64,13 @@ contentBlocks:
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: google.com
     link_url_1: google.com
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: google.com
+    link_text_2: google.com
+    bg_video: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
+    link_url_1: hi
+    link_url_2: hi
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
