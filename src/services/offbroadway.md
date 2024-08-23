@@ -4,7 +4,7 @@ tldr: Collaborative brand activation
 layout: product_page.liquid
 contentBlocks:
   - bg_video: ""
-    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
+    bg_image: ""
     link_text_1: ""
     link_text_2: ""
     logo: false
@@ -14,6 +14,13 @@ contentBlocks:
       lack the network and lingo to act on them effectively.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: Block title
+    blockquote: quote
+    link_text_1: hi
+    link_text_2: hi
+    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
+    link_url_2: google.com
+    link_url_1: google.com
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
