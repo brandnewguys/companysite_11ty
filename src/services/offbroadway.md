@@ -30,7 +30,7 @@ contentBlocks:
     link_text_1: ""
     link_text_2: ""
     logo: false
-    blocktitle: "3"
+    blocktitle: ""
     blockquote: ""
     contentbody: Meanwhile, cultural influencers deeply connect with their audience
       but often lack the resources to deliver the high- quality productions they
