@@ -3,16 +3,8 @@ title: Off-Broadway
 tldr: Collaborative brand activation
 layout: product_page.liquid
 contentBlocks:
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: google.com
-    link_text_2: google.com
-    bg_video: ""
-    link_url_1: hi
-    link_url_2: hi
-    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
   - bg_video: ""
-    bg_image: ""
+    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
     link_text_1: ""
     link_text_2: ""
     logo: false
