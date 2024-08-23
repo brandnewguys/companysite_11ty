@@ -38,7 +38,7 @@ contentBlocks:
     link_url_1: ""
     link_url_2: ""
   - bg_video: ""
-    bg_image: ""
+    bg_image: /bng-dar-yuro-s-resonance-17.jpg
     link_text_1: ""
     link_text_2: ""
     logo: false
@@ -50,7 +50,7 @@ contentBlocks:
       tourist to purist.
     link_url_1: ""
     link_url_2: ""
-  - blocktitle: test
+  - blocktitle: "1"
     blockquote: quote
     link_text_1: hoi ik ben cye
     link_text_2: bel me
