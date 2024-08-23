@@ -4,7 +4,7 @@ tldr: Collaborative brand activation
 layout: product_page.liquid
 contentBlocks:
   - blocktitle: ""
-    blockquote: quote
+    blockquote: ""
     link_text_1: hi
     link_text_2: hi
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
