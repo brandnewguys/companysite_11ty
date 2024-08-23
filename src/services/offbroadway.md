@@ -52,6 +52,14 @@ contentBlocks:
     link_url_1: ""
     link_url_2: ""
   - blocktitle: ""
+    blockquote: ""
+    link_text_1: google.com
+    link_text_2: google.com
+    link_url_2: hi
+    link_url_1: hi
+    bg_video: ""
+    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
+  - blocktitle: ""
     blockquote: quote
     link_text_1: hoi ik ben cye
     link_text_2: bel me
@@ -71,14 +79,6 @@ contentBlocks:
       tourist to purist.
     link_url_1: ""
     link_url_2: ""
-  - blocktitle: ""
-    blockquote: ""
-    link_text_1: google.com
-    link_text_2: google.com
-    link_url_2: hi
-    link_url_1: hi
-    bg_video: ""
-    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
