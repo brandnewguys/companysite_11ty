@@ -36,7 +36,7 @@ contentBlocks:
     blockquote: quote
     link_text_1: hi
     link_text_2: hi
-    bg_image: /Hotel Lobi - Building beyond-12-min_17_11zon.jpg
+    bg_image: /Hotel Lobi - GOWTU-13.jpg
     link_url_2: google.com
     link_url_1: google.com
   - bg_video: ""
