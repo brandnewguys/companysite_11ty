@@ -54,7 +54,7 @@ contentBlocks:
     blockquote: quote
     link_text_1: hoi ik ben cye
     link_text_2: bel me
-    bg_image: /Hotel Lobi - GOWTU-1.jpg
+    bg_image: /bng-breitling-x-yfa-38.jpg
     link_url_1: google.com
     link_url_2: google.com
 ---
