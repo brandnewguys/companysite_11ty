@@ -51,6 +51,19 @@ contentBlocks:
       aspire to.
     link_url_1: ""
     link_url_2: ""
+  - bg_video: ""
+    bg_image: ""
+    link_text_1: ""
+    link_text_2: ""
+    logo: false
+    blocktitle: ""
+    blockquote: ""
+    contentbody: The intersection of these *seemingly* segregated worlds, is where
+      the magic happens. Under our creative direction we define the contours of
+      this blend and craft the story and activations that happen within. From
+      tourist to purist.
+    link_url_1: ""
+    link_url_2: ""
   - blocktitle: ""
     blockquote: quote
     link_text_1: hoi ik ben cye
@@ -66,19 +79,6 @@ contentBlocks:
     link_url_1: hi
     bg_video: ""
     bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
-  - bg_video: ""
-    bg_image: ""
-    link_text_1: ""
-    link_text_2: ""
-    logo: false
-    blocktitle: ""
-    blockquote: ""
-    contentbody: The intersection of these *seemingly* segregated worlds, is where
-      the magic happens. Under our creative direction we define the contours of
-      this blend and craft the story and activations that happen within. From
-      tourist to purist.
-    link_url_1: ""
-    link_url_2: ""
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
