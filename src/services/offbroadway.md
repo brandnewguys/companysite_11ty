@@ -7,7 +7,7 @@ contentBlocks:
     blockquote: quote
     link_text_1: hi
     link_text_2: hi
-    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
+    bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: google.com
     link_url_1: google.com
   - bg_video: ""
@@ -36,7 +36,7 @@ contentBlocks:
     blockquote: quote
     link_text_1: hi
     link_text_2: hi
-    bg_image: /bng-dar-yuro-s-resonance-59.jpg
+    bg_image: /Hotel Lobi - Building beyond-12-min_17_11zon.jpg
     link_url_2: google.com
     link_url_1: google.com
   - bg_video: ""
@@ -71,12 +71,12 @@ contentBlocks:
     link_url_2: hi
     link_url_1: hi
     bg_video: ""
-    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
+    bg_image: /bng-breitling-x-yfa-38.jpg
   - blocktitle: ""
     blockquote: quote
     link_text_1: hoi ik ben cye
     link_text_2: bel me
-    bg_image: /bng-breitling-x-yfa-38.jpg
+    bg_image: /ofa-4.jpg
     link_url_1: google.com
     link_url_2: google.com
 ---
