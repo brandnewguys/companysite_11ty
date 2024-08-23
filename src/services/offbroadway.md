@@ -21,6 +21,13 @@ contentBlocks:
       lack the network and lingo to act on them effectively.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: hi
+    link_text_2: hi
+    bg_image: /bng-dar-yuro-s-resonance-59.jpg
+    link_url_2: google.com
+    link_url_1: google.com
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -32,6 +39,13 @@ contentBlocks:
       sacrifice authenticity for profit.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: hoi ik ben cye
+    link_text_2: bel me
+    bg_image: /bng-breitling-x-yfa-38.jpg
+    link_url_1: google.com
+    link_url_2: google.com
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -44,6 +58,14 @@ contentBlocks:
       aspire to.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: ""
+    link_text_1: google.com
+    link_text_2: google.com
+    link_url_2: hi
+    link_url_1: hi
+    bg_video: ""
+    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -57,20 +79,6 @@ contentBlocks:
       tourist to purist.
     link_url_1: ""
     link_url_2: ""
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: hoi ik ben cye
-    link_text_2: bel me
-    bg_image: /bng-breitling-x-yfa-38.jpg
-    link_url_1: google.com
-    link_url_2: google.com
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: hi
-    link_text_2: hi
-    bg_image: /bng-dar-yuro-s-resonance-59.jpg
-    link_url_2: google.com
-    link_url_1: google.com
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
