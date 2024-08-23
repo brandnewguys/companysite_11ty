@@ -68,9 +68,10 @@ contentBlocks:
     blockquote: quote
     link_text_1: google.com
     link_text_2: google.com
-    bg_video: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
+    bg_video: ""
     link_url_1: hi
     link_url_2: hi
+    bg_image: /Hotel Lobi - Building beyond-1-min_18_11zon.jpg
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
