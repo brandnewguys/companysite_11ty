@@ -51,6 +51,13 @@ contentBlocks:
       aspire to.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: quote
+    link_text_1: hoi ik ben cye
+    link_text_2: bel me
+    bg_image: /bng-breitling-x-yfa-38.jpg
+    link_url_1: google.com
+    link_url_2: google.com
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -64,13 +71,6 @@ contentBlocks:
       tourist to purist.
     link_url_1: ""
     link_url_2: ""
-  - blocktitle: ""
-    blockquote: quote
-    link_text_1: hoi ik ben cye
-    link_text_2: bel me
-    bg_image: /bng-breitling-x-yfa-38.jpg
-    link_url_1: google.com
-    link_url_2: google.com
   - blocktitle: ""
     blockquote: ""
     link_text_1: google.com
