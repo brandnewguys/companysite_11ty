@@ -59,9 +59,11 @@ contentBlocks:
     link_url_2: google.com
   - blocktitle: Block title
     blockquote: quote
-    link_text_1: link 1
-    link_text_2: link 1
+    link_text_1: hi
+    link_text_2: hi
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
+    link_url_2: google.com
+    link_url_1: google.com
 ---
 
 We offer our “Off-Broadway” service as an experimental playground, aiming to
