@@ -39,14 +39,6 @@ contentBlocks:
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: google.com
     link_url_1: google.com
-  - blocktitle: ""
-    blockquote: ""
-    link_text_1: google.com
-    link_text_2: google.com
-    link_url_2: hi
-    link_url_1: hi
-    bg_video: ""
-    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -72,6 +64,14 @@ contentBlocks:
       tourist to purist.
     link_url_1: ""
     link_url_2: ""
+  - blocktitle: ""
+    blockquote: ""
+    link_text_1: google.com
+    link_text_2: google.com
+    link_url_2: hi
+    link_url_1: hi
+    bg_video: ""
+    bg_image: /Hotel Lobi - Building beyond-23-min_6_11zon.jpg
   - blocktitle: ""
     blockquote: quote
     link_text_1: hoi ik ben cye
