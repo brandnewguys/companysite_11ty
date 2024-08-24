@@ -5,8 +5,8 @@ layout: product_page.liquid
 contentBlocks:
   - blocktitle: ""
     blockquote: ""
-    link_text_1: hi
-    link_text_2: hi
+    link_text_1: "Check out what we did for: Breitling"
+    link_text_2: Book a discovery call
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: google.com
     link_url_1: google.com
@@ -34,17 +34,17 @@ contentBlocks:
     link_url_2: ""
   - blocktitle: ""
     blockquote: ""
-    link_text_1: hi
-    link_text_2: hi
+    link_text_1: "Check out what we did for: Breitling"
+    link_text_2: Book a discovery call
     bg_image: /Hotel Lobi - GOWTU-13.jpg
     link_url_2: google.com
     link_url_1: google.com
   - blocktitle: ""
     blockquote: ""
-    link_text_1: google.com
-    link_text_2: google.com
-    link_url_2: hi
-    link_url_1: hi
+    link_text_1: "Check out what we did for: Breitling"
+    link_text_2: Book a discovery call
+    link_url_2: google.com
+    link_url_1: google.com
     bg_video: ""
     bg_image: /bng-breitling-x-yfa-38.jpg
   - bg_video: ""
@@ -74,8 +74,8 @@ contentBlocks:
     link_url_2: ""
   - blocktitle: ""
     blockquote: quote
-    link_text_1: hoi ik ben cye
-    link_text_2: bel me
+    link_text_1: "Check out what we did for: Breitling"
+    link_text_2: Book a discovery call
     bg_image: /ofa-4.jpg
     link_url_1: google.com
     link_url_2: google.com
