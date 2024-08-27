@@ -385,6 +385,7 @@ i {
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .service .content--half:nth-child(odd) {
@@ -489,9 +490,9 @@ i {
     color: white;
     font-family: Arket Sans;
     grid-template-areas:
-        '. . . . branding '
+        '. . case . .'
         '. . quote . .'
-        'case case or book book';
+        '. . book . .';
 }
 
 .logo {
@@ -722,6 +723,12 @@ i {
 	.service .content.content--intro {
 	    grid-template-columns: 50% 50%;
 	}
+	.service .cta-grid {
+		grid-template-areas:
+        '. . . . branding '
+        '. . quote . .'
+        'case case or book book';
+		}
 	.service .content--grid,
 	.service .content--grid .content__inner {
 		grid-template-areas: 'content-img content-title' 'content-img content-text';
