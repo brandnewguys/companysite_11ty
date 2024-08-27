@@ -2,10 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: fixed;
   top: var(--spacing-15);
-  right: var(--spacing-15);
+  right: 60px;
   z-index: 2;
 
   width: 16.667vw;

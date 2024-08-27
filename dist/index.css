@@ -197,6 +197,7 @@ select {
 
 html, body {
   height: 100%;
+  overflow-x: unset;
 }
 
 body {
@@ -210,9 +211,11 @@ body {
   inset: 0;
 }
 
-.is-device main {
+.is-device .navigation-wrapper {
+  -webkit-overflow-scrolling: touch;
   position: fixed;
   inset: 0;
+  overflow-y: scroll;
 }
 
 body {
@@ -223,7 +226,7 @@ body {
   font-weight: 400;
 }
 
-.container {
+.pov {
   grid-gap: 0;
   grid-template-columns: repeat(12, 1fr);
   align-items: start;
@@ -231,7 +234,7 @@ body {
   position: relative;
 }
 
-.container.is-centered {
+.pov.is-centered {
   align-items: center;
 }
 
@@ -390,7 +393,7 @@ a-scene {
   position: absolute;
 }
 
-main, section.content {
+section.content {
   height: 100%;
 }
 
@@ -803,7 +806,7 @@ sup {
 
 .is-device .slider {
   height: calc(var(--vh, 1vh) * 100);
-  position: fixed;
+  position: sticky;
   top: 0;
   bottom: 0;
   left: 0;

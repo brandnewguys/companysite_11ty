@@ -1,4 +1,4 @@
-// import { preloadImages } from '../utils.js';
+import { preloadImages } from './utils.js';
 
 // Variable to store the Lenis smooth scrolling object
 let lenis;
@@ -54,12 +54,13 @@ const scroll = () => {
 
 // Initialization function
 const init = () => {
+	console.log('done')
     initSmoothScrolling(); // Initialize Lenis for smooth scrolling
     scroll(); // Apply scroll-triggered animations
 };
 
-// preloadImages('.content__img').then(() => {
-//     // Once images are preloaded, remove the 'loading' indicator/class from the body
-//     document.body.classList.remove('loading');
-//     init();
-// });
+preloadImages('.content__img').then(() => {
+    // Once images are preloaded, remove the 'loading' indicator/class from the body
+    // document.body.classList.remove('loading');
+    init();
+});

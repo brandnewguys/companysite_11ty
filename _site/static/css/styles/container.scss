@@ -1,4 +1,4 @@
-.container {
+.pov {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0;
@@ -7,6 +7,6 @@
   position: relative;
 }
 
-.container.is-centered {
+.pov.is-centered {
   align-items: center;
 }

@@ -1,13 +1,13 @@
 html,
 body {
   height: 100%;
-/*  overflow: hidden;*/
+  overflow-x: unset;
 }
 
 body {
   margin: 0;
 
-/*  overscroll-behavior-y: none;*/
+/*  overscroll-behavior-y: auto;*/
 }
 
 .app {
@@ -21,12 +21,12 @@ body {
   background-color: var(--color-grey);
 }
 
-.is-device main {
+.is-device .navigation-wrapper {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  // overflow-y: scroll;
-  // -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
