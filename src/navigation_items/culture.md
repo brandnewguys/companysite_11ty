@@ -6,4 +6,5 @@ title: Culture
 img: /Hotel Lobi - Building beyond-10-min_15_11zon.jpg
 url: /culture
 tags: nav
+date: 2024-09-05
 ---
