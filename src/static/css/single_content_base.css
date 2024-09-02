@@ -184,6 +184,7 @@ a:focus-visible {
 
 main {
 	counter-reset: section;
+	padding-top: 10vh;
 }
 
 .splitting .word {
@@ -291,19 +292,19 @@ main {
 	display: grid;
 	place-items: center;
 	margin: 0;
-	line-height: 0.9;
+	line-height: 1.2;
 	font-weight: 300;
 }
 
 .intro__title-pre {
 	font-family: 'Canela Text', sans-serif;
 /*	font-weight: 800;*/
-	text-transform: uppercase;
-	font-size: clamp(2rem,10vw,9rem);
+/*	text-transform: uppercase;*/
+	font-size: clamp(2rem,3vw,9rem);
 }
 
 .intro__title-sub {
-	font-size: clamp(1rem,6vw,2.75rem);
+	font-size: 18px;
 }
 
 .intro__info {
@@ -340,7 +341,7 @@ iframe {
 }
 
 .content:last-child {
-	padding-bottom: 40vh;
+/*	padding-bottom: 40vh;*/
 }
 
 .content--full {
@@ -352,7 +353,7 @@ iframe {
 	margin: 1.5rem auto;
 	font-size: 1.25rem;
 	line-height: 1.5;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .content--highlight p {

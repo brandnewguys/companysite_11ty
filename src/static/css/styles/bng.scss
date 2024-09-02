@@ -35,6 +35,18 @@ sup	{
 	fill: var(--menu);
 }
 
+.app main {
+    height: 100%;
+}
+
+.navigation-frame > a {
+    width: 125px;
+    display: inline-block;
+    top: 50px;
+    position: relative;
+    left: 50px;
+}
+
 @media screen and (min-width: 1080px) {
 	body {
 		color: black

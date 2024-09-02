@@ -1,5 +1,5 @@
 .slider {
-  --slidesTotal: 6;
+  --slidesTotal: 5;
 
   position: fixed;
 /*  position: sticky;*/
@@ -52,8 +52,8 @@
 
   &__item {
     display: flex;
-    align-items: center;
-    justify-content: center;
+/*    align-items: center;*/
+/*    justify-content: center;*/
 
     pointer-events: none;
 
@@ -72,14 +72,16 @@
   }
 
   &__item-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    display: grid;
     position: relative;
     z-index: 1;
-
     user-select: none;
+    /* v2 */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 50% 25%;
+    padding: 1em;
   }
 
   &__item-heading-wrap,
@@ -89,20 +91,53 @@
     overflow: hidden;
   }
 
+  &__item-heading-wrap.description {
+    grid-area: 1 / 2 / 1/ 2;
+    text-align: right;
+    justify-self: end;
+    .slider__item-heading {
+      text-transform: uppercase;
+    }
+  }
+
+  &__item-heading-wrap.clever {
+    grid-area: 2 / 1 / 2 / 1;
+    align-self: center;
+    justify-self: start;
+  }
+
+  &__item-heading-wrap.product-name {
+    grid-area: 2 / 2 / 2 / 2;
+    align-self: center;
+    justify-self: end;
+  }
+
+
   &__item-button-wrap {
     pointer-events: all;
+    grid-area: 3 / 2 / 3 / 2;
+    align-self: end;
+    justify-self: end;
   }
 
   &__item-heading {
     pointer-events: none;
-
     font-family: var(--font-f-serif);
-    font-size: 8.667vw;
+    font-size: clamp(12px, 13px, 20px);
     line-height: 10.278vw;
-    text-align: center;
+/*    text-align: center;*/
     color: var(--color-white);
     text-transform: capitalize;
-
+    transform-origin: left bottom;
+    will-change: transform;
+    /*    v2*/
+/*    text-align: initial;*/
+    pointer-events: none;
+    font-family: var(--font-f-sans);
+    font-size: 18px /* should be clamped */;
+    line-height: 18px;
+    color: var(--color-white);
+    text-transform: initial;
     transform-origin: left bottom;
     will-change: transform;
   }
@@ -157,6 +192,8 @@
     &__item-heading {
       font-size: 2.569vw;
       line-height: 6.944vw;
+      font-size: 18px;
+      line-height: 24px;
     }
 
     &__item-button {

@@ -44,10 +44,18 @@
     line-height: var(--lh-heading-sm);
 
     @media (min-width: 768px) {
-      grid-column: 5 / 12;
-
+      grid-column-start: 3;
+      display: flex;
       margin: 0;
+      grid-column-end: 10;
     }
   }
 }
 
+.content--outro {
+    padding: 0;
+    min-height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #c8c8c8;
+}

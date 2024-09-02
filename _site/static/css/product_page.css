@@ -59,7 +59,7 @@ body {
 .demo-8,
 .demo-10,
 .demo-12,
-.demo-14 {
+.demo-14, .product {
 	--color-text: #000;
 	--color-bg: #e1e1e1;
 	--color-link: rgba(0,0,0,0.6);
@@ -85,6 +85,15 @@ body {
 	--color-bg-1: #9d9d9d;
 	--color-bg-2: #c7c7c7;
 	--color-bg-3: #7c7c7c;
+	--color-bg-4: var(--color-bg-1);
+	--color-bg-5: var(--color-bg-2);
+	--color-bg-6: var(--color-bg-3);
+}
+
+.product {
+	--color-bg-1: #fffdf8;
+	--color-bg-2: #fffdf8;
+	--color-bg-3: #fffdf8;
 	--color-bg-4: var(--color-bg-1);
 	--color-bg-5: var(--color-bg-2);
 	--color-bg-6: var(--color-bg-3);
@@ -315,7 +324,7 @@ i {
 }
 
 .text-large {
-	font-size: clamp(1.5rem,5vw,3rem);
+	font-size: clamp(1.2rem, 18px, 3rem);
 	max-width: 750px;
 	margin: 0 0 0.85em 0;
 	line-height: 1.2;
@@ -382,7 +391,7 @@ i {
 	display: flex;
 	flex-direction: column;
 	gap: 3vh;
-	text-align: center;
+	text-align: left;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -393,9 +402,8 @@ i {
 }
 
 .service .content__img {
-	grid-area: content-img;
-	width: 8%;
-	max-width: 300px;
+	width: 50%;
+	max-width: 150px;
 	height: auto;
 }
 
@@ -473,10 +481,12 @@ i {
 }
 
 .service .content--outro {
-    /* padding-bottom: 30vh; */
-/*    background-color: #f2f2f2;*/
     margin: 1em;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 406px;
+    justify-items: center;
+    align-items: center;
 }
 
 .service .content--outro a ={
@@ -490,9 +500,10 @@ i {
     color: white;
     font-family: Arket Sans;
     grid-template-areas:
-        '. . case . .'
-        '. . quote . .'
-        '. . book . .';
+        'case'
+        'quote'
+        'book';
+    align-content: space-between;
 }
 
 .logo {
@@ -644,21 +655,18 @@ i {
 
 .case {
     grid-area: case;
-    justify-self: start;
-    align-self: end;
+    justify-self: center;
+    align-self: center;
 }
 
 .or {
-    grid-area: or;
-    justify-self: start;
-    align-self: end;
-    padding: 1.5rem 3rem;
+    display: none;
 }
 
 .book {
     grid-area: book;
-    justify-self: end;
-    align-self: end;
+    justify-self: center;
+    align-self: center;
 }
 
 .bg-1 { background-color: var(--color-bg-1); }
@@ -735,6 +743,29 @@ i {
 		grid-template-columns: 30% 1fr;
 		justify-items: start;
 	}
+	.quote {
+	    grid-area: quote;
+	    align-self: center;
+	}
+
+	.case {
+	    grid-area: case;
+	    justify-self: start;
+	    align-self: end;
+	}
+
+	.book {
+	    grid-area: book;
+	    justify-self: end;
+	    align-self: end;
+	}
+	.or {
+	    grid-area: or;
+	    justify-self: start;
+	    align-self: end;
+	    padding: 1.5rem 3rem;
+	}
+
 	.service .content__img--large {
 		width: 160%;
 	}

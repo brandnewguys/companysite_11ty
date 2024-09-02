@@ -9,6 +9,7 @@
         <meta name="author" content="Brand New Guys" />
         <link rel="shortcut icon" href="/static/img/favicon.ico">
         <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css">
+        <link rel="stylesheet" type="text/css" href="/dist/index.css" />
         <link rel="stylesheet" type="text/css" href="/static/css/single_content_base.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
@@ -19,28 +20,11 @@
         <script>var parcelRequire;</script> 
     </head>
     <body class="demo-2 loading">
-        
-        <main>
-            <div class="frame">
-                <div class="frame__title">
-                    <a href="/" class="frame__logo"><img src="/static/img/uploads/bng-logo.svg" style="width: 100px;"></a>
-                    
-                </div>
-                <div class="frame__title-back">
-                    <a aria-label="Back to the article" class="frame__title-back" href="/deepcuts">
-                        <span>BACK TO OVERVIEW</span>
-                        <svg width="18px" height="18px" viewBox="0 0 24 24">
-                            <path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
-                        </svg>
-                    </a>
-                </div>
-               
-                <nav class="frame__demos">
-                  
-                </nav>
-            </div>
+        {% include 'header_nav.html' %}
+        <main class="js-content">
+            
             <div class="intro">
-                 <p>{% if image %}<img src="{{ image }}" />{% endif %}</p>
+                 
                 <h1 class="intro__title">
                     <span class="intro__title-pre">{{ title | strip_html }}</span>
                     <span class="intro__title-sub">{{ subtitle | strip_html }}</span>
@@ -54,13 +38,11 @@
 
                 <p>{{ content | replace: '<blockquote> <p>', '<blockquote>' | replace: '</p> </blockquote>', '</blockquote>'}} </p>
             </div>
-            
-            <div class="content footer">
-                <!-- <h2 class="content__title" data-splitting data-effect20><span class="font-22 font-upper">Thank</span><span class="font-12 font-upper">You</span></h2> -->
 
-            </div>
-           
+           {% include 'cta-footer.html' %}
         </main>
+        
         <script type="module" src="/dist/podcast_single.js"></script>
+        <script src="/dist/index.js"></script>
     </body>
 </html>

@@ -3,6 +3,7 @@
   align-items: center;
 
   min-height: calc(var(--vh, 1vh) * 100);
+  min-height: auto;
 
   &__subheadings {
     grid-column: 1 / 13;
@@ -49,4 +50,17 @@
       margin: 0;
     }
   }
+}
+
+.content--outro {
+    padding: 0;
+    min-height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #c8c8c8;
+}
+
+.content--outro p:first-child {
+    border-top: 1px solid black;
+    padding-top: 2em;
 }

@@ -228,9 +228,9 @@ body {
 }
 
 .pov {
-  grid-gap: 0;
   grid-template-columns: repeat(12, 1fr);
-  align-items: start;
+  place-items: start center;
+  row-gap: 1em;
   display: grid;
   position: relative;
 }
@@ -239,19 +239,69 @@ body {
   align-items: center;
 }
 
-button.button-slider-open:before {
-  content: "menu";
+.pov .socialproof {
+  grid-area: 2 / 5 / 2 / 8;
+  justify-self: center;
+  padding-top: 3em;
+  font-size: 14px;
+  display: flex;
+}
+
+.pov img {
+  width: 100px;
+  align-self: center;
+  display: flex;
+}
+
+.client1 {
+  grid-area: 3 / 2 / 3 / 7;
+}
+
+.client2 {
+  grid-area: 3 / 8 / 3 / 12;
+}
+
+.client3 {
+  grid-area: 4 / 2 / 4 / 7;
+}
+
+.client4 {
+  grid-area: 4 / 8 / 4 / 12;
+}
+
+@media (width >= 768px) {
+  .client1 {
+    grid-area: 3 / 3 / 3 / 4;
+  }
+
+  .client2 {
+    grid-area: 3 / 7 / 3 / 8;
+  }
+
+  .client3 {
+    grid-area: 3 / 5 / 3 / 6;
+  }
+
+  .client4 {
+    grid-area: 3 / 9 / 3 / 10;
+  }
+}
+
+button.button-slider-open:after {
+  content: url("bng-black.c4d43bc9.svg");
   color: var(--menu);
+  width: 110px;
   font-family: Founders Grotesk;
   font-size: 14px;
   position: absolute;
   top: 30%;
-  right: 110%;
+  left: 110%;
 }
 
 .button {
   height: 11.111vw;
   font-size: var(--font-s-button);
+  font-size: 18px;
   line-height: var(--lh-button);
   text-transform: uppercase;
   align-items: center;
@@ -424,6 +474,18 @@ sup {
   fill: var(--menu);
 }
 
+.app main {
+  height: 100%;
+}
+
+.navigation-frame > a {
+  width: 125px;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
 @media screen and (width >= 1080px) {
   body, a {
     color: #000;
@@ -441,7 +503,7 @@ sup {
 
 .button-slider-open {
   top: var(--spacing-15);
-  right: var(--spacing-15);
+  left: var(--spacing-15);
   z-index: 2;
   width: 16.667vw;
   height: 16.667vw;
@@ -567,9 +629,18 @@ sup {
 
 @media (width >= 768px) {
   .content__heading {
-    grid-column: 5 / 12;
+    grid-column: 3 / 10;
     margin: 0;
+    display: flex;
   }
+}
+
+.content--outro {
+  min-height: auto;
+  max-width: 90%;
+  border-top: 1px solid #c8c8c8;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .placeholders {
@@ -628,7 +699,7 @@ sup {
 }
 
 .slider {
-  --slidesTotal: 6;
+  --slidesTotal: 5;
   z-index: 9;
   height: calc(var(--vh, 1vh) * 100);
   visibility: hidden;
@@ -668,8 +739,6 @@ sup {
 .slider__item {
   pointer-events: none;
   will-change: transform;
-  justify-content: center;
-  align-items: center;
   display: flex;
 }
 
@@ -686,9 +755,11 @@ sup {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
+  width: 100%;
+  grid-template-rows: 25% 50% 25%;
+  grid-template-columns: 50% 50%;
+  padding: 1em;
+  display: grid;
   position: relative;
 }
 
@@ -698,20 +769,48 @@ sup {
   overflow: hidden;
 }
 
+.slider__item-heading-wrap.description {
+  text-align: right;
+  grid-area: 1 / 2 / 1 / 2;
+  justify-self: end;
+}
+
+.slider__item-heading-wrap.description .slider__item-heading {
+  text-transform: uppercase;
+}
+
+.slider__item-heading-wrap.clever {
+  grid-area: 2 / 1 / 2 / 1;
+  place-self: center start;
+}
+
+.slider__item-heading-wrap.product-name {
+  grid-area: 2 / 2 / 2 / 2;
+  place-self: center end;
+}
+
 .slider__item-button-wrap {
   pointer-events: all;
+  grid-area: 3 / 2 / 3 / 2;
+  place-self: end;
 }
 
 .slider__item-heading {
   pointer-events: none;
   font-family: var(--font-f-serif);
-  text-align: center;
   color: var(--color-white);
   text-transform: capitalize;
   transform-origin: 0 100%;
   will-change: transform;
-  font-size: 8.667vw;
+  pointer-events: none;
+  font-size: 13px;
   line-height: 10.278vw;
+  font-family: var(--font-f-sans);
+  color: var(--color-white);
+  text-transform: initial;
+  will-change: transform;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .slider__item-button {
@@ -756,8 +855,8 @@ sup {
   }
 
   .slider__item-heading {
-    font-size: 2.569vw;
-    line-height: 6.944vw;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .slider__item-button {
