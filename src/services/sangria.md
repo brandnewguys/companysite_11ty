@@ -1,7 +1,7 @@
 ---
-layout: product_page.liquid
 title: Sangria
 tldr: Identity, strategy & creative direction
+layout: product_page.liquid
 contentBlocks:
   - bg_video: /sangria-strategy-video.mp4
     bg_image: /Hotel Lobi - Building beyond-11-min_16_11zon.jpg
@@ -11,7 +11,7 @@ contentBlocks:
     logo: true
     blockquote: Consult the O.G.'s
     link_url_1: google.com
-    link_url_2: google.com
+    link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -25,12 +25,12 @@ contentBlocks:
     link_url_2: ""
   - blocktitle: ""
     blockquote: quote
-    link_text_1: "check out what we did for: Breitling"
+    link_text_1: "check out what we did for: Chanel"
     link_text_2: Book a discovery call
-    bg_image: /tierzero.jpg
-    link_url_1: google.com
-    link_url_2: google.com
-  - bg_image: /1f.jpg
+    bg_video: square-indy.mp4
+    link_url_1: /deepcuts/chanel
+    link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
+  - bg_image: /community.jpg
     link_text_1: "check out what we did for: Chanel"
     link_text_2: Book a discovery call
     logo: true
@@ -40,7 +40,7 @@ contentBlocks:
       values and culture. This comes with a detailed brand book, which serves as
       a rallying point for your team, aligning everyone with the new direction.
     link_url_1: google.com
-    link_url_2: google.com
+    link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
   - blocktitle: Strengthen Community
     blockquote: ""
     link_text_1: ""
