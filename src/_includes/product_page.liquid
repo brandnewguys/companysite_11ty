@@ -29,10 +29,10 @@
 				  	{% if block.link_url_2 != blank %}
 				  		<div class="cta-grid"><!--  start CTA block -->
 				  			{% if block.bg_video != blank %}
-							<div class="video-container"><video src="/static/img/uploads/{{ block.bg_video }}" autoplay="true" muted loop></video></div>
+							<div class="video-container"><video src="/static/img/uploads/{{ block.bg_video }}" autoplay="true" muted playsinline loop></video></div>
 							{% endif %}
 				  			{% if block.logo == true %}
-							<span class="logo">BNG</span>
+							<!-- <span class="logo">BNG</span> -->
 							{% endif %}
 							{% if block.logo == true %}
 							<span class="quote">{{ block.quote }}</span>

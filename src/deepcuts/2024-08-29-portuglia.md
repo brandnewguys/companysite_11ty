@@ -5,9 +5,7 @@ recording_date: 2023-05-26T13:04:59.899Z
 layout: podcast_single.liquid
 tags: podcast
 image: /bende3.png
-embedded_player: <iframe src='https://share.transistor.fm/e/1493e91f/dark'
-  width='100%' height='180' frameborder='0' scrolling='no' seamless='true'
-  style='width:100%; height:180px;'></iframe>
+embedded_player:
 guests:
   - guest_name: Henrique Calado Oliveira
     guest_url: https://portugalia.nl

@@ -115,7 +115,7 @@
 
   &__item-button-wrap {
     pointer-events: all;
-    grid-area: 3 / 2 / 3 / 2;
+    grid-area: 3 / 1 / 3 / 3;
     align-self: end;
     justify-self: end;
   }
@@ -134,7 +134,7 @@
 /*    text-align: initial;*/
     pointer-events: none;
     font-family: var(--font-f-sans);
-    font-size: 18px /* should be clamped */;
+    font-size: 16px /* should be clamped */;
     line-height: 18px;
     color: var(--color-white);
     text-transform: initial;
@@ -151,7 +151,7 @@
   @media (min-width: 768px) {
     display: flex;
     align-items: center;
-
+    font-size: 18px;
     position: fixed;
 
     width: 100%;
@@ -269,6 +269,10 @@
   width: 100%;
   height: calc(var(--vh, 1vh) * 100);
   overflow-x: scroll;
+}
+
+.is-device .navigation-wrapper, .is-device .navigation-frame {
+  height: 0px;
 }
 
 .is-device .slider .nav__button-close {

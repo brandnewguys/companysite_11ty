@@ -228,6 +228,7 @@ body {
 }
 
 .pov {
+  color: #000;
   grid-template-columns: repeat(12, 1fr);
   place-items: start center;
   row-gap: 1em;
@@ -791,7 +792,7 @@ sup {
 
 .slider__item-button-wrap {
   pointer-events: all;
-  grid-area: 3 / 2 / 3 / 2;
+  grid-area: 3 / 1 / 3 / 3;
   place-self: end;
 }
 
@@ -809,7 +810,7 @@ sup {
   color: var(--color-white);
   text-transform: initial;
   will-change: transform;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -824,6 +825,7 @@ sup {
     height: 100vh;
     overflow-x: unset;
     align-items: center;
+    font-size: 18px;
     display: flex;
     position: fixed;
   }
@@ -916,6 +918,10 @@ sup {
   width: 100%;
   height: calc(var(--vh, 1vh) * 100);
   overflow-x: scroll;
+}
+
+.is-device .navigation-wrapper, .is-device .navigation-frame {
+  height: 0;
 }
 
 .is-device .slider .nav__button-close {
