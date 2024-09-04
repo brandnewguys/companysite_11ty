@@ -456,6 +456,7 @@ i {
 
 .service .video-container video {
 	object-fit: cover;
+	width:100%;
 }
 
 .service .content__text--narrow {
