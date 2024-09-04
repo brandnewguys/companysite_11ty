@@ -24,6 +24,7 @@ collections:
     folder: "/src/deepcuts"
     fields:
       - {label: "Title", name: title, widget: "string"}
+      - {label: "Published", name: published, widget: "boolean"}
       - {label: "subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Recording date", name: "recording_date", widget: "datetime", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "podcast_single.liquid"}

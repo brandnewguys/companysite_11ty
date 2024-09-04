@@ -274,3 +274,13 @@ a:focus {
 	outline: none;
 	border: 1px solid #535353;
 }
+
+.soon {
+	pointer-events: none;
+	color: #737373;
+}
+
+.soon:before {
+	content: "coming soon";
+	font-size: 10px;
+}

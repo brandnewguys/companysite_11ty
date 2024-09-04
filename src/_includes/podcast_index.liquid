@@ -54,6 +54,11 @@
       <!-- render vCal items -->
         <div class="menu__items list" id="bng__list"> {% for podcast in collections.podcast %}
           <div class="menu__item">
+            <a href="{{podcast.url}}" class="menu__item-inner {% if podcast.data.published == blank %}soon{% endif %}">{{ podcast.data.title }}</a>
+          </div>
+        {% endfor %}
+        {% for podcast in collections.podcast %}
+          <div class="menu__item">
             <a href="{{podcast.url}}" class="menu__item-inner">{{ podcast.data.title }}</a>
           </div>
         {% endfor %}

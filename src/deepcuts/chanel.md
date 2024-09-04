@@ -1,5 +1,6 @@
 ---
 title: Chanel
+published: true
 subtitle: Bloom into Youth
 recording_date: 2024-09-02T14:28:14.437Z
 layout: podcast_single.liquid

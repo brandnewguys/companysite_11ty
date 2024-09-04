@@ -1,11 +1,12 @@
 ---
 title: Portugalia
+published: true
 subtitle: Reimagining Portugalia Tasca's Brand Identity for Strategic Growth
 recording_date: 2023-05-26T13:04:59.899Z
 layout: podcast_single.liquid
 tags: podcast
 image: /bende3.png
-embedded_player:
+embedded_player: null
 guests:
   - guest_name: Henrique Calado Oliveira
     guest_url: https://portugalia.nl

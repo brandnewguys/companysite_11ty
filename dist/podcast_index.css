@@ -250,4 +250,14 @@ a:hover, a:focus {
   outline: none;
 }
 
+.soon {
+  pointer-events: none;
+  color: #737373;
+}
+
+.soon:before {
+  content: "coming soon";
+  font-size: 10px;
+}
+
 /*# sourceMappingURL=podcast_index.css.map */
