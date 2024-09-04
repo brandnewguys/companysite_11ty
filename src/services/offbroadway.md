@@ -9,7 +9,7 @@ contentBlocks:
     link_text_2: Book a discovery call
     bg_image: /bng-dar-yuro-s-resonance-59.jpg
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
-    link_url_1: google.com
+    link_url_1: /deepcuts/breitling/
   - bg_video: ""
     bg_image: ""
     link_text_1: ""
@@ -38,13 +38,13 @@ contentBlocks:
     link_text_2: Book a discovery call
     bg_image: /Hotel Lobi - GOWTU-13.jpg
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
-    link_url_1: google.com
+    link_url_1: /deepcuts/breitling/
   - blocktitle: ""
     blockquote: ""
     link_text_1: "Check out what we did for: Breitling"
     link_text_2: Book a discovery call
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
-    link_url_1: google.com
+    link_url_1: /deepcuts/breitling/
     bg_video: ""
     bg_image: /bng-breitling-x-yfa-38.jpg
   - bg_video: ""
@@ -77,7 +77,7 @@ contentBlocks:
     link_text_1: "Check out what we did for: Breitling"
     link_text_2: Book a discovery call
     bg_image: /ofa-4.jpg
-    link_url_1: google.com
+    link_url_1: /deepcuts/breitling/
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
 ---
 

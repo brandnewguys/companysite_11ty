@@ -10,7 +10,7 @@ contentBlocks:
     link_text_2: Book a discovery call
     logo: true
     blockquote: Consult the O.G.'s
-    link_url_1: google.com
+    link_url_1: /deepcuts/2024-08-29-portuglia/
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
   - bg_video: ""
     bg_image: ""
@@ -25,13 +25,13 @@ contentBlocks:
     link_url_2: ""
   - blocktitle: ""
     blockquote: quote
-    link_text_1: "check out what we did for: Chanel"
+    link_text_1: "check out what we did for: Portugalia"
     link_text_2: Book a discovery call
     bg_video: square-indy.mp4
-    link_url_1: /deepcuts/chanel
+    link_url_1: /deepcuts/2024-08-29-portuglia/
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
   - bg_image: /community.jpg
-    link_text_1: "check out what we did for: Chanel"
+    link_text_1: "check out what we did for: Portugalia"
     link_text_2: Book a discovery call
     logo: true
     blocktitle: Brand Identity
@@ -39,7 +39,7 @@ contentBlocks:
     contentbody: We start by developing a brand identity that truly reflects your
       values and culture. This comes with a detailed brand book, which serves as
       a rallying point for your team, aligning everyone with the new direction.
-    link_url_1: google.com
+    link_url_1: /deepcuts/2024-08-29-portuglia/
     link_url_2: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ36babQfRbsZwFAe0ccXgKGEf771XnJyS253knWf_LfvXDOPMRcJeu2mU_R1ECZckF6qaB6ld8Z
   - blocktitle: Strengthen Community
     blockquote: ""
