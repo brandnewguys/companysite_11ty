@@ -4,7 +4,7 @@ tldr: Identity, strategy & creative direction
 layout: product_page.liquid
 contentBlocks:
   - bg_video: /sangria-strategy-video.mp4
-    bg_image: /Hotel Lobi - Building beyond-11-min_16_11zon.jpg
+    bg_image: 
     link_text_1: "Check out what we did for: Portugalia"
     Block Title: ""
     link_text_2: Book a discovery call
