@@ -19,8 +19,10 @@
     <meta name="author" content="Brand New Guys" />
     <link rel="icon" href="/static/img/favicon.ico">
     <!-- <link rel="stylesheet" href="https://use.typekit.net/rtr2vsr.css"> -->
-    <link rel="stylesheet" href="https://use.typekit.net/gll7dfd.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/gll7dfd.css"> -->
+    <link rel="stylesheet" type="text/css" href="/dist/index.css" />
+    <!-- Once we find a great mobile design to filter results we'll re-add list.js -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script> -->
     <script>
       document.documentElement.className = "js";
       var supportsCssVars = function() {
@@ -37,7 +39,7 @@
     <link rel="stylesheet" href="/dist/podcast_index.css">
   </head>
   <body>
-    <div class="frame">
+    <!-- <div class="frame">
       <div class="frame__logo">
         <a href="/"><img src="../static/img/uploads/bng-logo.svg" style="width: 100px;" /></a>
       </div>
@@ -47,11 +49,8 @@
         id="podcast_search"
         class="fuzzy-search frame__search"
         placeholder="search" />
-    </div>
-    <nav class="menu" id="menu__container">
-      <!-- loop over agenda items -->
-      <!-- add date meta info  -->
-      <!-- render vCal items -->
+    </div> -->
+    <nav class="menu js-content" id="menu__container">
         <div class="menu__items list" id="bng__list"> {% for podcast in collections.podcast %}
           <div class="menu__item">
             <a href="{{podcast.url}}" class="menu__item-inner {% if podcast.data.published == blank %}soon{% endif %}">{{ podcast.data.title }}</a>
@@ -59,12 +58,14 @@
         {% endfor %}
         {% for podcast in collections.podcast %}
           <div class="menu__item">
-            <a href="{{podcast.url}}" class="menu__item-inner">{{ podcast.data.title }}</a>
+            <a href="{{podcast.url}}" class="menu__item-inner {% if podcast.data.published == blank %}soon{% endif %}">{{ podcast.data.title }}</a>
           </div>
         {% endfor %}
       </div>
     </nav>
-    <script src="../static/js/filter.js"></script>
+    {% include 'header_nav.html' %}
+    <!-- <script src="../static/js/filter.js"></script> -->
+    <script src="/dist/index.js"></script>
     <script src="/dist/podcast_index.js"></script>
   </body>
 </html>

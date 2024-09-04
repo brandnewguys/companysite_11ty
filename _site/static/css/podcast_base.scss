@@ -207,6 +207,12 @@ a:focus {
 
 #bng__list {
 	transition: 1.75s ease all;
+	height: 100%;
+	line-height: normal;
+}
+
+#bng__list a {
+	text-decoration: none;
 }
 
 .filtered {

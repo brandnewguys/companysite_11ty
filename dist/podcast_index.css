@@ -182,7 +182,13 @@ a:hover, a:focus {
 }
 
 #bng__list {
+  height: 100%;
+  line-height: normal;
   transition: all 1.75s;
+}
+
+#bng__list a {
+  text-decoration: none;
 }
 
 .filtered {
