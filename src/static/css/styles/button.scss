@@ -9,6 +9,10 @@ button.button-slider-open:after {
     width: 110px;
 }
 
+body.dark button.button-slider-open:after {
+    content: url("../../static/img/bng-logo-white.svg");
+}
+
 .button {
   display: flex;
   align-items: center;

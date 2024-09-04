@@ -309,6 +309,10 @@ button.button-slider-open:after {
   left: 110%;
 }
 
+body.dark button.button-slider-open:after {
+  content: url("bng-logo-white.0f62b82b.svg");
+}
+
 .button {
   height: 11.111vw;
   font-size: var(--font-s-button);
