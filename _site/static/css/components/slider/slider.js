@@ -22,6 +22,7 @@ class Slider {
     this.dom.progressWrap = this.dom.el.querySelector('.js-progress-wrap');
     this.dom.progress = this.dom.el.querySelector('.js-progress');
     this.dom.content = document.querySelector('.js-content');
+    this.dom.contacts = document.querySelector('.js-content');
 
     this.state = {
       open: false,
@@ -93,6 +94,8 @@ class Slider {
 
       .set(this.dom.progressWrap, { autoAlpha: 0 })
       .set(this.dom.buttonClose, { autoAlpha: 0 })
+
+      .set(this.dom.contacts, { autoAlpha: 0 })
 
       .to(this.dom.buttonClose, { duration: 1.5, autoAlpha: 1 }, '+=0.1')
       .to(this.dom.buttonCloseCircle, { duration: 1.5, ease: 'Expo.easeInOut', strokeDashoffset: 0 }, 'start+=0.1')

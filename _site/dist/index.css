@@ -721,7 +721,7 @@ sup {
   visibility: hidden;
   opacity: 0;
   will-change: transform;
-  position: fixed;
+  position: sticky;
   top: 0;
   bottom: 0;
   left: 0;
@@ -919,6 +919,33 @@ sup {
 
 .is-dragging .slider__container {
   cursor: grabbing;
+}
+
+.js-contacts {
+  text-align: center;
+  text-transform: lowercase;
+  width: 80vw;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 16px;
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+
+.is-device .js-contacts {
+  text-align: center;
+  text-transform: lowercase;
+  width: 100vw;
+  transform: unset;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  font-size: 16px;
+  display: grid;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
 }
 
 .is-device .slider {

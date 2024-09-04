@@ -2,7 +2,7 @@
   --slidesTotal: 5;
 
   position: fixed;
-/*  position: sticky;*/
+  position: sticky;
   top: 0;
   left: 0;
   bottom: 0;
@@ -251,6 +251,33 @@
 
 .is-dragging .slider__container {
   cursor: grabbing;
+}
+
+.js-contacts {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    text-transform: lowercase;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    width: 80vw;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.is-device .js-contacts {
+    text-align: center;
+    text-transform: lowercase;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    font-size: 16px;
+    display: grid;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    transform: unset;
 }
 
 .is-device .slider {
