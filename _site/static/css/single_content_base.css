@@ -349,7 +349,7 @@ iframe {
 }
 
 .content p {
-	max-width: 660px;
+	max-width: 90%;
 	margin: 1.5rem auto;
 	font-size: 1.25rem;
 	line-height: 1.5;
@@ -378,7 +378,7 @@ iframe {
 }
 
 blockquote.splitting p {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
 }
 

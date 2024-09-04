@@ -77,7 +77,7 @@ class Slider {
     if (this.state.open) return;
 
     const tl = gsap.timeline({ paused: true });
-
+    this.dom.content.classList.add("open");
     const length = this.dom.buttonCloseCircle.getTotalLength();
     this.dom.buttonCloseCircle.style.strokeDasharray = length;
     this.dom.buttonCloseCircle.style.strokeDashoffset = length;

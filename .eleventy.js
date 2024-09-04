@@ -1,6 +1,9 @@
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.setServerOptions({
+    showAllHosts: true
+  });
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPassthroughCopy({"src/uploads": "static/uploads"});
   // Copy Netlify CMS assets to the output folder

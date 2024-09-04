@@ -28,6 +28,7 @@
     "eleventy-plugin-local-images": "^0.4.1",
     "gsap": "file:gsap-bonus.tgz",
     "imagesloaded": "^4.1.4",
+    "quick-local-ip": "^1.0.7",
     "splitting": "^1.0.6",
     "virtual-scroll": "^1.5.2"
   }

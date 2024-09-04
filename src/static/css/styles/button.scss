@@ -18,7 +18,7 @@ button.button-slider-open:after {
   height: 11.111vw;
 
   font-size: var(--font-s-button);
-  font-size: 18px;
+  font-size: 12px;
   line-height: var(--lh-button);
   text-transform: uppercase;
   text-decoration: none;
@@ -75,7 +75,7 @@ button.button-slider-open:after {
   @media (min-width: 768px) {
     
     height: 2.778vw;
-
+    font-size: 18px;
     &__icon {
       margin: 0 0 0 1.042vw;
 
