@@ -30,19 +30,21 @@
 	document.addEventListener("DOMContentLoaded", function() {
 		let canvasElement;
 
-// Function to disable canvas interactions
-function disableCanvasInteractions() {
+// Function to hide the canvas element using opacity and visibility
+function hideCanvas() {
 	if (canvasElement) {
 		canvasElement.style.pointerEvents = 'none';
-		canvasElement.style.display = 'none'; // Hide the canvas
+		canvasElement.style.opacity = '0';
+		canvasElement.style.visibility = 'hidden';
 	}
 }
 
-// Function to enable canvas interactions
-function enableCanvasInteractions() {
+// Function to show the canvas element using opacity and visibility
+function showCanvas() {
 	if (canvasElement) {
 		canvasElement.style.pointerEvents = 'auto';
-		canvasElement.style.display = 'block'; // Show the canvas
+		canvasElement.style.opacity = '1';
+		canvasElement.style.visibility = 'visible';
 	}
 }
 
@@ -52,9 +54,9 @@ function toggleCanvasBasedOnSliderVisibility() {
 	canvasElement = document.querySelector('#app canvas');
 
 	if (slider && slider.style.opacity === '1' && slider.style.visibility === 'inherit') {
-		disableCanvasInteractions(); // Disable canvas when slider is visible
+		hideCanvas(); // Hide canvas when slider is visible
 	} else {
-		enableCanvasInteractions(); // Enable canvas when slider is hidden
+		showCanvas(); // Show canvas when slider is hidden
 	}
 }
 
