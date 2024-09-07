@@ -18,7 +18,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" crossorigin href="/dist/index.css">
   <link rel="stylesheet" crossorigin href="/static/css/culture.css">
 <style>
-	
+	.slider__container.js-container {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    display: flex; /* Ensures items are in a row */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    scroll-behavior: smooth; /* Smooth scrolling for mouse and touch */
+    transition: transform 0.2s ease-out; /* Adjust transition for smoother effects */
+}
+
+.slider__item {
+    flex: 0 0 auto; 
+	width:80%;
+	/* Prevents items from shrinking and maintains proper sliding */
+    scroll-snap-align: start; /* Optional: Aligns items to start on scroll end */
+}
+
+.slider__container.active {
+    cursor: grabbing; /* Cursor feedback while dragging */
+}
+
 </style>
 </head>
 
@@ -310,10 +328,10 @@ window.addEventListener('beforeunload', () => observer.disconnect());
 // Target the correct container for sliding
 const sliderContainer = document.querySelector('.slider__container.js-container');
 if (sliderContainer) {
-	sliderContainer.style.overflowX = 'auto'; // Enable horizontal scrolling
-	sliderContainer.style.touchAction = 'pan-x'; // Allow horizontal touch panning
+	sliderContainer.style.overflowX = 'auto'; // Ensure horizontal scrolling is enabled
+	sliderContainer.style.touchAction = 'pan-x'; // Allow horizontal panning for touch devices
 
-	// Mouse drag functionality for scrolling items inside the container
+	// Smooth Mouse Dragging Logic
 	let isDown = false;
 	let startX;
 	let scrollLeft;
@@ -336,14 +354,14 @@ if (sliderContainer) {
 	});
 
 	sliderContainer.addEventListener('mousemove', (e) => {
-		if (!isDown) return; // Do nothing if mouse is not down
+		if (!isDown) return; // Exit if the mouse is not pressed
 		e.preventDefault();
 		const x = e.pageX - sliderContainer.offsetLeft;
-		const walk = (x - startX) * 2; // Adjust the multiplier to control scroll speed
+		const walk = (x - startX) * 1.5; // Adjust the factor for smoothness
 		sliderContainer.scrollLeft = scrollLeft - walk;
 	});
 
-	// Touch scroll functionality
+	// Smooth Touch Scrolling Logic
 	let startTouchX;
 	let scrollLeftTouch;
 
@@ -354,7 +372,7 @@ if (sliderContainer) {
 
 	sliderContainer.addEventListener('touchmove', (e) => {
 		const touchX = e.touches[0].pageX;
-		const move = (startTouchX - touchX) * 2; // Control the scroll speed
+		const move = (startTouchX - touchX) * 1.5; // Adjust the factor for smooth touch response
 		sliderContainer.scrollLeft = scrollLeftTouch + move;
 	});
 }
