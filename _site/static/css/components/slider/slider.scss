@@ -282,14 +282,15 @@
 
 .is-device .slider {
   position: fixed;
-  position: sticky;
+  // position: sticky;
   top: 0;
   left: 0;
   bottom: 0;
-
+  right: 0;
+display: nonee !important;
   height: calc(var(--vh, 1vh) * 100);
 
-  // overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 .is-device .slider__container {

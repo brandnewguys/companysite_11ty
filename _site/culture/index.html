@@ -15,10 +15,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="shortcut icon" href="./favicon.ico">
 	<script>document.documentElement.className = "js";</script>
   <script type="module" crossorigin src="/static/js/culture.js"></script>
-  <script type="module" crossorigin src="/dist/index.js"></script>
   <link rel="stylesheet" crossorigin href="/dist/index.css">
   <link rel="stylesheet" crossorigin href="/static/css/culture.css">
-
+<style>
+	
+</style>
 </head>
 
 <body class="dark">
@@ -259,6 +260,104 @@ c﻿ases</div>
   <!-- END SLIDER -->
 
 	
+	<script src="/static/js/infinitemenu.js"></script>
+	<script   src="/dist/index.js"></script>
+	<script>
+	// Initialize InfiniteMenu slider if not already handled in included scripts
+	document.addEventListener("DOMContentLoaded", function() {
+		let canvasElement;
+
+// Function to disable canvas interactions
+function disableCanvasInteractions() {
+	if (canvasElement) {
+		canvasElement.style.pointerEvents = 'none';
+		canvasElement.style.display = 'none'; // Hide the canvas
+	}
+}
+
+// Function to enable canvas interactions
+function enableCanvasInteractions() {
+	if (canvasElement) {
+		canvasElement.style.pointerEvents = 'auto';
+		canvasElement.style.display = 'block'; // Show the canvas
+	}
+}
+
+// Toggle canvas visibility based on slider state
+function toggleCanvasBasedOnSliderVisibility() {
+	const slider = document.querySelector('.slider.js-slider');
+	canvasElement = document.querySelector('#app canvas');
+
+	if (slider && slider.style.opacity === '1' && slider.style.visibility === 'inherit') {
+		disableCanvasInteractions(); // Disable canvas when slider is visible
+	} else {
+		enableCanvasInteractions(); // Enable canvas when slider is hidden
+	}
+}
+
+// Initial check on page load
+toggleCanvasBasedOnSliderVisibility();
+
+// Monitor changes in slider visibility dynamically
+const observer = new MutationObserver(toggleCanvasBasedOnSliderVisibility);
+observer.observe(document.body, { attributes: true, childList: true, subtree: true });
+
+// Clean up observer on page unload
+window.addEventListener('beforeunload', () => observer.disconnect());
+
+// Target the correct container for sliding
+const sliderContainer = document.querySelector('.slider__container.js-container');
+if (sliderContainer) {
+	sliderContainer.style.overflowX = 'auto'; // Enable horizontal scrolling
+	sliderContainer.style.touchAction = 'pan-x'; // Allow horizontal touch panning
+
+	// Mouse drag functionality for scrolling items inside the container
+	let isDown = false;
+	let startX;
+	let scrollLeft;
+
+	sliderContainer.addEventListener('mousedown', (e) => {
+		isDown = true;
+		sliderContainer.classList.add('active');
+		startX = e.pageX - sliderContainer.offsetLeft;
+		scrollLeft = sliderContainer.scrollLeft;
+	});
+
+	sliderContainer.addEventListener('mouseleave', () => {
+		isDown = false;
+		sliderContainer.classList.remove('active');
+	});
+
+	sliderContainer.addEventListener('mouseup', () => {
+		isDown = false;
+		sliderContainer.classList.remove('active');
+	});
+
+	sliderContainer.addEventListener('mousemove', (e) => {
+		if (!isDown) return; // Do nothing if mouse is not down
+		e.preventDefault();
+		const x = e.pageX - sliderContainer.offsetLeft;
+		const walk = (x - startX) * 2; // Adjust the multiplier to control scroll speed
+		sliderContainer.scrollLeft = scrollLeft - walk;
+	});
+
+	// Touch scroll functionality
+	let startTouchX;
+	let scrollLeftTouch;
+
+	sliderContainer.addEventListener('touchstart', (e) => {
+		startTouchX = e.touches[0].pageX;
+		scrollLeftTouch = sliderContainer.scrollLeft;
+	});
+
+	sliderContainer.addEventListener('touchmove', (e) => {
+		const touchX = e.touches[0].pageX;
+		const move = (startTouchX - touchX) * 2; // Control the scroll speed
+		sliderContainer.scrollLeft = scrollLeftTouch + move;
+	});
+}
+	});
+	</script>
 </body>
 
 </html>
