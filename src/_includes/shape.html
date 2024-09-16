@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		{% include '_tag_head.html' %}
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ title }}</title>
+		<meta name="description" content="{{ tldr}}" />
+		<meta name="keywords" content="brand strategy and identity by Brand New Guys" />
+		<meta name="author" content="BRAND NEW GUYS" />
+		<!-- <link rel="icon" href="/static/img/favicon.ico"> -->
+		<link rel="stylesheet" type="text/css" href="/dist/index.css" />
+		<script>document.documentElement.className="js";</script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	</head>
+	<body class="dark">
+		{% include '_tag_body.html' %}
+		{% include 'header_nav.html' %}
+		<div class="js-content">
+			<canvas id="campaign_shape"></canvas>
+			<div class="scenarios" style=" display: flex; justify-content: space-around; ">
+				<a href="#" class="scenario" data-newdata="[1, 1, 1, 1, 15, 1, 1, 1, 1]">Hero</a>
+				<a href="#" class="scenario" data-newdata="[1, 3, 5, 7, 9, 7, 5, 3, 1]">Pyramide</a>
+				<a href="#" class="scenario" data-newdata="[1, 3, 8, 9, 12, 9, 8, 3, 1]">Accolade</a>
+			</div>
+		</div>
+		
+		<script>
+		  const ctx = document.getElementById('campaign_shape');
+
+		  const myChart = new Chart(ctx, {
+		    type: 'line',
+		    data: {
+		      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'Red', 'Orange', 'Red'],
+		      datasets: [{
+		        label: 'Production value',
+		        data: [1, 3, 5, 8, 5, 3, 1, 4, 5],
+		        borderWidth: 2,
+		        backgroundColor: '#ffffff',
+		        radius: 3,
+		        borderColor: '#ffffff'
+
+		      }]
+		    },
+		    options: {
+		      scales: {
+		        y: {
+		          beginAtZero: true,
+		          display: false
+		        },
+		        x: {
+		        	display: false
+		        }
+		      },
+		      plugins: {
+			    tooltip: {
+			      enabled: false
+			    },
+			    legend: {
+			    	display: false
+			    }
+			  }
+		    }
+		  });
+
+			// Add event listeners to all anchor links with the class 'scenario'
+		document.querySelectorAll('a.scenario').forEach(link => {
+		    link.addEventListener('click', function(event) {
+		        event.preventDefault();  // Prevent the default anchor link behavior
+
+		        // Get the new data from the data attribute and parse it as an array
+		        const newData = JSON.parse(this.getAttribute('data-newdata'));
+
+		        // Update the chart with the new data
+		        updateChart(newData);
+		    });
+		});
+
+		function updateChart(newData) {
+			console.log(newData);
+		    // Update the chart's dataset with the provided new data
+		    myChart.data.datasets[0].data = newData;  
+		    myChart.update();  // Re-render the chart
+		}
+		</script>
+		<script src="/dist/index.js"></script>
+	</body>
+</html>

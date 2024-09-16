@@ -1,3 +1,6 @@
+.dark {
+	background-color: black;
+}
 .logo {
 	padding-top: 20px;
 	max-width: 200px;
@@ -50,7 +53,11 @@ sup	{
 
 @media screen and (min-width: 1080px) {
 	body {
-		color: black
+		color: black;
+	}
+
+	body.dark a {
+	color: white;
 	}
 	a {
 		color: black;

@@ -22,6 +22,8 @@ The camellia flower, a symbol of elegance and timeless beauty, has been integral
 
 To tell this story, Chanel moved beyond a traditional product launch, opting instead to create a sensory experience. The narrative was woven through the experiences of notable figures, each embodying different facets of self-care and the philosophy that youth is a mindset rather than an age.
 
+![](/chanel-2.jpg)
+
 **Yootha Wong-Loi-Sing: The Voice of Discovery and Self-Care**
 
 We chose Dutch-Surinamese actress Yootha Wong-Loi-Sing as the central figure to convey this narrative. Known for her roles in both European and international cinema, Yootha brings a unique blend of modernity and depth, making her an ideal muse for Chanel’s campaign. Her personal journey of self-discovery mirrors the campaign’s ethos of finding beauty and youth within oneself.
