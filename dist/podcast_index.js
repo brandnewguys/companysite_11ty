@@ -142,10 +142,10 @@
       this[globalName] = mainExports;
     }
   }
-})({"dnm3M":[function(require,module,exports) {
+})({"jvY7Z":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
-var HMR_PORT = 63842;
+var HMR_PORT = 53459;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 module.bundle.HMR_BUNDLE_ID = "a9bad6bd3cedd772";
@@ -679,6 +679,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"53QTV":[function() {},{}]},["dnm3M","4yWnV"], "4yWnV", "parcelRequire4214")
+},{}],"53QTV":[function() {},{}]},["jvY7Z","4yWnV"], "4yWnV", "parcelRequire4214")
 
 //# sourceMappingURL=podcast_index.js.map

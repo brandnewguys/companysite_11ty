@@ -7,21 +7,21 @@
 	<meta name="robots" content="noindex">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700|Merriweather:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/nowplaying.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="/static/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="/static/css/nowplaying.css"> <!-- Resource style -->
+	<script src="/static/js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Now Paying | Brand New Guys</title>
+	<title>Now Playing | Brand New Guys</title>
 </head>
 <body>
 	<main>
 		<!-- insert Jekyll variable -->
-		<h1>Welcome<br /><span>{{ page.client }}</span></h1>
+		<h1>Welcome<br /><span>{{ client }}</span></h1>
 		
 		<!-- jekyllify as well -->
 		<p>Happy to have you here! Let's create something beautiful</p>
-		<p class="wifi"><br>Wifi network: {{ page.wifi_network }}<br>Wifi password: {{ page.wifi_code }}</p>
-		<img class="logo" src="/img/bng.svg" alt="Brand New Guys logo svg">
+		<p class="wifi"><br>Wifi network: {{ wifi_network }}<br>Wifi password: {{ wifi_code }}</p>
+		<img class="logo" src="/static/img/bng.svg" alt="Brand New Guys logo svg">
 
 	</main>
 
@@ -38,7 +38,7 @@
 			
 			
 			<div class="cd-half-block">
-				<img class="logo" src="/img/bng.svg" alt="Brand New Guys logo svg">
+				<img class="logo" src="/static/img/bng.svg" alt="Brand New Guys logo svg">
 				
 				<address>
 					<ul class="cd-contact-info">
@@ -48,10 +48,10 @@
 						</li>
 						<li>What are you drinking?</li>
 						<li>
-							<span>Bialetti perculated black coffee</span>
-							<span>+ foamed mild</span>
-							<span>Ginger tea</span>
-							<span>Mint tea</span>
+							<span>Tideh tea</span>
+							<span>Capuccino</span>
+							<span>(+ oat)</span>
+							<span>(+ coconut)</span>
 						</li>
 					</ul>
 				</address>
@@ -66,10 +66,10 @@
 					<ul class="cd-primary-nav">
 						<!-- meeting agenda -->
 						<li><a href="#0" class="selected">Today's agenda</a></li>
-						<li><a href="#0">{{ page.agenda1 }}</a></li>
-						<li><a href="#0">{{ page.agenda2 }}</a></li>
-						<li><a href="#0">{{ page.agenda3 }}</a></li>
-						<li><a href="#0">{{ page.agenda4 }}</a></li>
+						<li><a href="#0">{{ agenda1 }}</a></li>
+						<li><a href="#0">{{ agenda2 }}</a></li>
+						<li><a href="#0">{{ agenda3 }}</a></li>
+						<li><a href="#0">{{ agenda4 }}</a></li>
 					</ul>
 				</nav>
 			</div><!-- .cd-half-block -->
