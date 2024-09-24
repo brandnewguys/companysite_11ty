@@ -7,6 +7,6 @@ clever: ...aka
 title: tribe
 img: /1prod.jpg
 url: /services/tribe
-tags: nav
+tags: 
 date: 2024-09-03
 ---

@@ -730,7 +730,7 @@ sup {
 }
 
 .slider {
-  --slidesTotal: 5;
+  --slidesTotal: 4;
   z-index: 9;
   height: calc(var(--vh, 1vh) * 100);
   visibility: hidden;
