@@ -14,7 +14,7 @@ local_backend: true
 
 # This line should *not* be indented
 media_folder: "/src/static/img/uploads/" # Media files will be stored in the repo under img/portfolio-content/Netlify-cms
-public_folder: "/"
+public_folder: "/static/img/uploads/"
 
 collections:
   - name: deepcuts
