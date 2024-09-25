@@ -1,36 +1,52 @@
 ---
 title: Unicef
-subtitle: Bloom into Youth
+published: true
+subtitle: Umi Says
 recording_date: 2024-09-02T14:28:14.437Z
 layout: podcast_single.liquid
 tags: podcast
 ---
-**Case Study: Chanel’s Iconic Camellia Flower**
+### Case Study: UNICEF Suriname – "Umi Says" Podcast Campaign
 
-**Introduction: The Essence of Youth in Chanel’s New Line**
+### Project Overview
 
-Chanel’s launch of its latest product line, centered around the iconic camellia flower, is not just a celebration of beauty but a narrative that intertwines self-care, youth, and a profound connection with nature. This campaign transcends the traditional methods of product introduction by offering an immersive experience that tells a story—one that speaks to the heart as much as it does to the senses.
+UNICEF tasked us with translating key data points from the *Children’s Snapshot Suriname 2023* document, which outlines the wellbeing of children in Suriname. The report revealed the combined effects of the pandemic, socio-economic crises, and social unrest, all of which are having a significant impact on children’s overall wellbeing, particularly their mental health.
 
-> Through the voices of notable personalities and the serene backdrop of Chanel’s camellia farms in Gaujacq, this case study explores how Chanel crafted a narrative that resonates with the idea that youth is not just a phase of life, but a state of mind.
+While adults have traditionally been the ones to voice children’s thoughts and concerns, we wanted to break this pattern by giving children a platform to share their own perspectives on their experiences and the current state of affairs in Suriname. Our goal was to create a space for children to express their thoughts and feelings directly, with a focus on amplifying their voices in a way that would touch both the public and policymakers.
 
-**Background: The Camellia Flower’s Journey from Nature to Chanel**
+### Concept Development
 
-The camellia flower, a symbol of elegance and timeless beauty, has been integral to Chanel’s identity for decades. For this launch, Chanel focused on the flower not just as an aesthetic motif but as a potent ingredient in their new skincare line. The camellia farms in Gaujacq, near Biarritz in the south of France, serve as the cradle of this story. It is here, amidst the lush, rolling landscapes, that the camellia flowers are cultivated with meticulous care, embodying the essence of purity and vitality that Chanel seeks to infuse into its products.
+We wanted to step away from the traditional communication format often used by organizations—dense reports with high barriers to entry—and instead create a more accessible, engaging, and personal medium. The idea was born to use a live podcast, set in a place of symbolic importance, and let the children "talk around the watercooler," but this time quite literally.
 
-**Narrative Development: Crafting a Story of Self-Care and Youth**
+In collaboration with UNICEF, we created a pop-up space in the heart of the capital, Paramaribo, at DNA, the government building housing the Parliament. Within the building was an old well, which became the perfect setting for our podcast, serving as a metaphorical "watercooler" where real conversations happen. The location also symbolized Suriname’s political heart, aligning the children’s voices with where decisions about their futures are being made.
 
-To tell this story, Chanel moved beyond a traditional product launch, opting instead to create a sensory experience. The narrative was woven through the experiences of notable figures, each embodying different facets of self-care and the philosophy that youth is a mindset rather than an age.
+### “Umi Says” – The Podcast
 
-**Yootha Wong-Loi-Sing: The Voice of Discovery and Self-Care**
+The podcast was titled **"Umi Says,"** inspired by the Mos Def song of the same name. The choice of title worked on two levels:
 
-We chose Dutch-Surinamese actress Yootha Wong-Loi-Sing as the central figure to convey this narrative. Known for her roles in both European and international cinema, Yootha brings a unique blend of modernity and depth, making her an ideal muse for Chanel’s campaign. Her personal journey of self-discovery mirrors the campaign’s ethos of finding beauty and youth within oneself.
+1. **Direct Expression**: The opening lyrics of the song say, "I don’t want to write this down, I want to tell you how I feel right now." This sentiment echoed our approach: encouraging children to speak their minds freely and directly in the form of a podcast, rather than rely on written reports and complex documents.
+2. **Homophone to "UNICEF"**: Phonetically, "Umi Says" sounds like "Unicef," further tying the campaign to the organization’s mission and creating an association between UNICEF’s work and the authentic voices of Suriname's children.
 
-Instead of simply recapping her visit to the Chanel farms, Yootha was given the space to express her reflections poetically. Her monologue, rich with introspection, touches on themes of self-care, renewal, and the timeless nature of youth. She speaks not just as an actress, but as a woman reconnecting with herself, surrounded by the serene beauty of Chanel’s camellia gardens. To enhance the narrative, Chanel enlisted Adison dos Reis, a talented sound artist, to create a bespoke soundscape.
+### The Podcast Setup
 
-> Adison's auditory backdrop complements Yootha’s poetic narrative, enveloping the listener in a cocoon of tranquility and introspection.
+We designed the podcast to be both an event and a form of activism. It was recorded from the watercooler in the Parliament building, allowing children from different age groups and backgrounds to share their thoughts about their current realities in Suriname.
 
-**Conclusion: Chanel’s Mastery in Storytelling and Branding**
+By using this format, the podcast captured raw, unfiltered stories and allowed listeners to hear firsthand how the crises were shaping the lives of Surinamese children. The space was intimate yet public, symbolizing that the children’s voices needed to be heard at the highest levels of decision-making.
 
-Chanel’s launch of its camellia-based product line is a testament to the brand’s understanding of their own universe and that diving deep doesn’t necessarily alienate pedestrian Chanel fans. By blending the poetic reflections of Yootha Wong-Loi-Sing , Chanel has crafted a narrative that is both intimate and universal. The campaign does more than introduce a new product; it invites the audience to see youth as a state of mind.
+### Out-of-Home Campaign: A Visual Invitation
 
-In this campaign, Chanel has once again proven its ability to innovate within the realms of luxury and beauty, creating not just products, but experiences that connect to a cultural why. The Gaujacq farms, the camellia flower, and the voices of those who embody the spirit of youth all come together to tell a story that is quintessentially Chanel—timeless, elegant, and profoundly human.
+To draw attention to the podcast and encourage public participation, we launched an **Out-of-Home (OOH)** campaign inspired by Pelle Cass' iconic cover for *The New Yorker*. The OOH activation featured a dynamic collage of movement at a busy intersection in Paramaribo, visually capturing the energy and chaos of the city’s current state. We invited passers-by to walk a pre-defined route through the intersection and sign a quit claim, symbolically contributing their presence to the campaign. This production doubled as an open invitation to the podcast recording, encouraging community engagement and participation.
+
+### Amplification and Impact
+
+The campaign was strategically seeded among local activist groups, shoot participants, and media outlets, ensuring that the message reached a broad audience. In addition to paid media placements, the organic amplification from grassroots organizations helped to generate significant buzz.
+
+By positioning the children’s voices at the center of this campaign, we highlighted their agency in shaping conversations about their own futures. The combination of a live podcast, a playful yet politically resonant setting, and an OOH campaign that encouraged real-time interaction helped create a powerful activation that was both symbolic and impactful.
+
+### Results
+
+* **Engagement**: The podcast episodes garnered substantial attention, both from the local public and international stakeholders. The choice of a live format allowed for spontaneous, authentic discussions that connected deeply with listeners.
+* **Visibility**: The OOH campaign, particularly the use of a busy intersection as a canvas, captured the attention of passers-by and created a visually compelling narrative about children’s place in society.
+* **Media Coverage**: Local media outlets, along with activist groups, played a key role in spreading the word, amplifying the children’s voices to a wider audience. UNICEF’s involvement added credibility and further strengthened the reach of the campaign.
+
+Through the *"Umi Says"* project, we were able to provide a platform for Surinamese children to express themselves, bridging the gap between policy discussions and the everyday realities they face. This campaign succeeded in both raising awareness of the challenges children in Suriname are grappling with and shifting the narrative by allowing children to lead the conversation themselves.
