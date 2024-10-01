@@ -1,6 +1,6 @@
 .slider {
   --slidesTotal: 4;
-
+  background-color: rgba(255, 255, 255, 0);
   position: fixed;
   position: sticky;
   top: 0;
@@ -16,6 +16,7 @@
   will-change: transform;
 
   &__button-close {
+    mix-blend-mode: exclusion;
     position: fixed;
     top: -11.11111vw;
     left: calc(100vw - 43.056vw);
