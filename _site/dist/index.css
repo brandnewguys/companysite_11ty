@@ -736,6 +736,7 @@ sup {
   visibility: hidden;
   opacity: 0;
   will-change: transform;
+  background-color: #fff0;
   position: sticky;
   top: 0;
   bottom: 0;
@@ -743,6 +744,7 @@ sup {
 }
 
 .slider__button-close {
+  mix-blend-mode: exclusion;
   z-index: 1001;
   width: 56.944vw;
   height: 56.944vw;
