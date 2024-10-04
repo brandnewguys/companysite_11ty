@@ -1,11 +1,8 @@
 ---
-layout: nowplaying
-client: Oxfam Novib
-wifi_network: BNG
-wifi_code: Wecaneat1!
-agenda1: Process
-agenda2: Campaign shape
-agenda3: Proposal
-agenda4: The Creative
-balie_movie: /img/portfolio-content/Netlify-cms/balie.mp4
+client: Portugalia
+agenda1: Drukwerk
+agenda2: Churrasco activatie
+agenda3: Email/website transitie
+agenda4: overig
+balie_movie: /static/img/uploads/1f.jpg
 ---
