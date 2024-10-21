@@ -1,8 +1,11 @@
 ---
-client: Portugalia
-agenda1: Drukwerk
-agenda2: Churrasco activatie
-agenda3: Email/website transitie
-agenda4: overig
+client: Oxfam Novib
+agenda1: Ideate
+agenda2: Planning
+agenda3: Contactmomenten
+agenda4: Facturatie
 balie_movie: /static/img/uploads/1f.jpg
+layout: nowplaying.html
+wifi_code: Wecaneat1!
+wifi_network: BNG
 ---

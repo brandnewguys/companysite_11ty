@@ -150,7 +150,7 @@ collections:
 
       - label: "Now Playing Page"
         name: "nowplaying"
-        file: "/src/static/nowplaying.md"
+        file: "/src/nowplaying.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "nowplaying"}
           - {label: "Client", name: "client", widget: "string"}
