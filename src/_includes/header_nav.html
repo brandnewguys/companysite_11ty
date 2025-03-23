@@ -5,7 +5,7 @@
   </button>
   <!-- PLACEHOLDERS -->
   <div class="placeholders js-placeholders">
-   {% for navi in collections.nav limit: 3 %}
+   {% for navi in collections.nav | sort("data.priority") limit: 3 %}
    <div class="placeholders__img-wrap js-img-wrap" style="--aspect-ratio: 0.8;">
     <img
     src="/static/img/uploads{{ navi.data.img }}"
@@ -27,7 +27,7 @@
   </svg>
   </button>
   <div class="slider__container js-container" data-scroll>
-   {% for navi in collections.nav %}
+   {% for navi in collections.nav | sort("data.priority") %}
    <div class="slider__item js-item" style="--aspect-ratio: 0.8;">
     <div class="slider__item-img-wrap js-img-wrap js-img" style="--aspect-ratio: 0.8;" data-building="building-slug" data-index="1">
      <img src="/static/img/uploads{{ navi.data.img }}" alt="Brand New Guys x {{ navi.data.title }}" class="slider__item-img" />

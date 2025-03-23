@@ -12,6 +12,21 @@
 		<link rel="icon" href="/static/img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="/static/css/hotellobi.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<style>
+			#canvas-wrapper {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				z-index: -1;
+			}
+
+			#canvas {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
 	</head>
 	<body class="loading">
 		<svg class="hidden">
@@ -40,7 +55,6 @@
 						<a href="#" class="menu__item menu__story" onclick="document.querySelector('.intro__logo').click(); return false">Story</a>
 						<a target="_blank" href="mailto:hi@brandnewguys.co" class="menu__item">Contact</a>
 					</nav>
-					
 				</div>
 				<div class="slideshow">
 					{%- for post in collections.hyperspace reversed limit:10 -%}
@@ -71,8 +85,7 @@
 				</div><!-- /slideshow -->
 			</div><!-- /content -->
 			<div class="intro">
-				<!-- This element animates: -->
-				<div class="intro__box"><canvas id="scene"></canvas></div>
+				<div id="canvas-wrapper"><canvas id="canvas"></canvas></div>
 				<a class="intro__logo">
 					<svg class="icon icon--arrowup"><use xlink:href="#icon-arrowup"></use></svg>
 				</a>
@@ -102,10 +115,7 @@
 						<h3 class="intro__subtitle">Next-up:</h3>
 						<p class="intro__info"><a class="intro__enter animatable">{{ collections.hyperspace.last.data.title }}</a></p>
 					</div>
-					<!-- <div class="codrops-links animatable">
-						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GridLayoutMotion/" title="Previous Demo"></a>
-						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=35022" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-					</div> -->
+					
 				</div>
 				<div class="intro__content intro__content--second animatable">
 					<h3 class="intro__content-title animatable">Philosophy</h3>
@@ -138,10 +148,9 @@
 			</div>
 		</main>
 		<script src="/static/js/hyperspace/anime.min.js"></script>
-		<script src="/static/js/hyperspace/hyperspace.js"></script>
-
 		<script src="/static/js/hyperspace/three.min.js"></script>
 		<script src="/static/js/hyperspace/TweenMax.min.js"></script>
-		<script src="/static/js/hyperspace/tunnelvision.js"></script>
+		<script src="/static/js/hyperspace/index.js"></script>
+		<script type="module" src="/static/js/newwest/index.js"></script>
 	</body>
 </html>

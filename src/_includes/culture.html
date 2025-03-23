@@ -13,24 +13,22 @@
   <link rel="stylesheet" crossorigin href="/static/css/culture.css">
 <style>
 	.slider__container.js-container {
-    overflow-x: auto; /* Enables horizontal scrolling */
-    display: flex; /* Ensures items are in a row */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
-    scroll-behavior: smooth; /* Smooth scrolling for mouse and touch */
-    transition: transform 0.2s ease-out; /* Adjust transition for smoother effects */
+    overflow-x: auto;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    transition: transform 0.2s ease-out;
 }
 
 .slider__item {
     flex: 0 0 auto; 
-	width:80%;
-	/* Prevents items from shrinking and maintains proper sliding */
-    scroll-snap-align: start; /* Optional: Aligns items to start on scroll end */
+    width: 80%;
+    scroll-snap-align: start;
 }
 
 .slider__container.active {
-    cursor: grabbing; /* Cursor feedback while dragging */
+    cursor: grabbing;
 }
-
 </style>
 </head>
 
@@ -42,105 +40,7 @@
 	{% include 'header_nav.html' %}
 	
 	<script src="/static/js/infinitemenu.js"></script>
-	<script   src="/dist/index.js"></script>
-	<script>
-	// Initialize InfiniteMenu slider if not already handled in included scripts
-	document.addEventListener("DOMContentLoaded", function() {
-		let canvasElement;
-
-// Function to hide the canvas element using opacity and visibility
-function hideCanvas() {
-	if (canvasElement) {
-		canvasElement.style.pointerEvents = 'none';
-		canvasElement.style.opacity = '0';
-		canvasElement.style.visibility = 'hidden';
-	}
-}
-
-// Function to show the canvas element using opacity and visibility
-function showCanvas() {
-	if (canvasElement) {
-		canvasElement.style.pointerEvents = 'auto';
-		canvasElement.style.opacity = '1';
-		canvasElement.style.visibility = 'visible';
-	}
-}
-
-// Toggle canvas visibility based on slider state
-function toggleCanvasBasedOnSliderVisibility() {
-	const slider = document.querySelector('.slider.js-slider');
-	canvasElement = document.querySelector('#app canvas');
-
-	if (slider && slider.style.opacity === '1' && slider.style.visibility === 'inherit') {
-		hideCanvas(); // Hide canvas when slider is visible
-	} else {
-		showCanvas(); // Show canvas when slider is hidden
-	}
-}
-
-// Initial check on page load
-toggleCanvasBasedOnSliderVisibility();
-
-// Monitor changes in slider visibility dynamically
-const observer = new MutationObserver(toggleCanvasBasedOnSliderVisibility);
-observer.observe(document.body, { attributes: true, childList: true, subtree: true });
-
-// Clean up observer on page unload
-window.addEventListener('beforeunload', () => observer.disconnect());
-
-// Target the correct container for sliding
-const sliderContainer = document.querySelector('.slider__container.js-container');
-if (sliderContainer) {
-	sliderContainer.style.overflowX = 'auto'; // Ensure horizontal scrolling is enabled
-	sliderContainer.style.touchAction = 'pan-x'; // Allow horizontal panning for touch devices
-
-	// Smooth Mouse Dragging Logic
-	let isDown = false;
-	let startX;
-	let scrollLeft;
-
-	sliderContainer.addEventListener('mousedown', (e) => {
-		isDown = true;
-		sliderContainer.classList.add('active');
-		startX = e.pageX - sliderContainer.offsetLeft;
-		scrollLeft = sliderContainer.scrollLeft;
-	});
-
-	sliderContainer.addEventListener('mouseleave', () => {
-		isDown = false;
-		sliderContainer.classList.remove('active');
-	});
-
-	sliderContainer.addEventListener('mouseup', () => {
-		isDown = false;
-		sliderContainer.classList.remove('active');
-	});
-
-	sliderContainer.addEventListener('mousemove', (e) => {
-		if (!isDown) return; // Exit if the mouse is not pressed
-		e.preventDefault();
-		const x = e.pageX - sliderContainer.offsetLeft;
-		const walk = (x - startX) * 1.5; // Adjust the factor for smoothness
-		sliderContainer.scrollLeft = scrollLeft - walk;
-	});
-
-	// Smooth Touch Scrolling Logic
-	let startTouchX;
-	let scrollLeftTouch;
-
-	sliderContainer.addEventListener('touchstart', (e) => {
-		startTouchX = e.touches[0].pageX;
-		scrollLeftTouch = sliderContainer.scrollLeft;
-	});
-
-	sliderContainer.addEventListener('touchmove', (e) => {
-		const touchX = e.touches[0].pageX;
-		const move = (startTouchX - touchX) * 1.5; // Adjust the factor for smooth touch response
-		sliderContainer.scrollLeft = scrollLeftTouch + move;
-	});
-}
-	});
-	</script>
+	<script src="/dist/index.js"></script>
 </body>
 
 </html>

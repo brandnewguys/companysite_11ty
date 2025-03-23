@@ -1,10 +1,11 @@
 ---
 priority: "1"
-description: "STRATEGY + INSIGHT<br>
+description: "BRAND STRATEGY + INSIGHT<br>
   CREATIVE DIRECTION<br>
-  BRAND DIRECTION"
-clever: ...or just
-title: sangria
+  CONTENT PRODUCTION<br>
+  EVENT STRATEGY"
+clever: what we do
+title: branding + activation
 img: /2prod.jpg
 url: /services/sangria
 tags: nav

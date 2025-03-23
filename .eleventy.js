@@ -30,6 +30,13 @@ module.exports = function(eleventyConfig) {
     tunnel: true
   });
 
+  // Configure the nav collection
+  eleventyConfig.addCollection("nav", function(collectionApi) {
+    return collectionApi.getFilteredByTag("nav").sort((a, b) => {
+      return (parseInt(a.data.priority) || 0) - (parseInt(b.data.priority) || 0);
+    });
+  });
+
     return {
       dir: {
         // ⚠️ These values are both relative to your input directory.

@@ -37,17 +37,15 @@
 	class Panel {
 		constructor(el) {
 			this.DOM = {el: el};
-
 			this.DOM.logo = DOM.intro.querySelector('.intro__logo');
 			this.DOM.logoImg = this.DOM.logo.querySelector('.icon--arrowup');
-			this.DOM.enter = DOM.intro.querySelector('.intro__enter');
+			this.DOM.enter = DOM.intro.querySelector('.intro__info .intro__enter');
 			
 			this.animatableElems = Array.from(DOM.intro.querySelectorAll('.animatable')).sort(() => 0.5 - Math.random());
 			
 			// set layout
 			this.boxRect = this.DOM.el.getBoundingClientRect();
 			this.layout();
-
 			this.isOpen = true;
 			this.initEvents();
 		}

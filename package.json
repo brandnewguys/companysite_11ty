@@ -4,8 +4,8 @@
   "author": "brand new guys",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently 'yarn:watch-bundle' 'yarn:serve-11ty'",
-    "build": "yarn run build-11ty && yarn run build-bundle",
+    "start": "concurrently 'npm:watch-bundle' 'npm:serve-11ty'",
+    "build": "npm run build-11ty && npm run build-bundle",
     "watch-bundle": "parcel watch src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --dist-dir ./dist",
     "build-bundle": "parcel build src/static/js/index.js src/static/js/podcast_index.js src/static/js/podcast_single.js --dist-dir ./dist",
     "serve-11ty": "npx @11ty/eleventy --input=src --serve",
@@ -14,11 +14,12 @@
   "devDependencies": {
     "@parcel/transformer-jsonld": "^2.8.2",
     "@parcel/transformer-sass": "^2.8.2",
-    "concurrently": "^7.6.0",
+    "concurrently": "^8.2.2",
     "http-server": "^14.1.1",
-    "node-sass": "^8.0.0",
     "parcel": "^2.8.2",
-    "sass": "^1.26.12"
+    "sass": "^1.71.0",
+    "svgo": "^3.3.2",
+    "watch": "^1.0.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

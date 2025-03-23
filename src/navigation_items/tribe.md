@@ -1,9 +1,9 @@
 ---
-priority: "3"
+priority: "5"
 description: |-
   Relevancy through<br>
   Content creation
-clever: ...aka
+clever: what we do
 title: tribe
 img: /1prod.jpg
 url: /services/tribe

@@ -1,9 +1,9 @@
 ---
-priority: "4"
+priority: "2"
 description: |-
   I﻿nsights &<br>
   c﻿ases
-clever: ...for the curious we present
+clever: understanding craftmanship...
 title: deepcuts
 img: /Hotel Lobi - Building beyond-14-min_7_11zon.jpg
 url: /deepcuts

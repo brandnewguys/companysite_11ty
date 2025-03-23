@@ -1,9 +1,9 @@
 ---
-priority: "5"
+priority: "4"
 description: What moves us?
-clever: our definition of...
-title: Culture
-img: /Hotel Lobi - Building beyond-10-min_15_11zon.jpg
+clever: 
+title: culture and technology
+img: /culture.gif
 url: /culture
 tags: nav
 date: 2024-09-05
