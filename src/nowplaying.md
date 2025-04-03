@@ -1,11 +1,11 @@
 ---
-client: Oxfam Novib
-agenda1: Ideate
-agenda2: Planning
-agenda3: Contactmomenten
-agenda4: Facturatie
-balie_movie: /static/img/uploads/1f.jpg
 layout: nowplaying.html
-wifi_code: Wecaneat1!
+client: Hennah C Draaibaar
 wifi_network: BNG
+wifi_code: Wecaneat1!
+agenda1: Mama Djari
+agenda2: Friday
+agenda3: April 4th
+agenda4: Rotterdam
+balie_movie: /static/img/uploads/1f.jpg
 ---
