@@ -157,10 +157,10 @@ collections:
           - {label: "Client", name: "client", widget: "string"}
           - {label: "Wifinetwork", name: "wifi_network", widget: "hidden", default: "wecaneat"}
           - {label: "Wifi", name: "wifi_code", widget: "hidden", default: "BNG"}
-          - {label: "Agenda 1", name: "agenda1", widget: "string"}
-          - {label: "Agenda 2", name: "agenda2", widget: "string"}
-          - {label: "Agenda 3", name: "agenda3", widget: "string"}
-          - {label: "Agenda 4", name: "agenda4", widget: "string"}
+          - {label: "Agenda 1", name: "agenda1", widget: "string", required: false}
+          - {label: "Agenda 2", name: "agenda2", widget: "string", required: false}
+          - {label: "Agenda 3", name: "agenda3", widget: "string", required: false}
+          - {label: "Agenda 4", name: "agenda4", widget: "string", required: false}
           - {label: "Balie animatie", name: "balie_movie", widget: "file"}
 
       - label: "Be Cam Page"
