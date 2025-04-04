@@ -17,10 +17,13 @@ From there, we started discussing risks. How does the agency world actually work
 
 That led me to a very clear vision. They break it down really simply. They basically say: it’s all about your positioning. Your positioning needs to be strong. “I do X for Y” – you should be able to say that in one sentence. Your positioning has to be tight. Your marketing, lead generation, sales, and pricing – they all have to align. And then, of course, our mutual love for Jay-Z... I prepared a session using Jay-Z lyrics, where I walked you through those four elements:
 
-* Positioning
-* Lead generation
-* Sales
-* Pricing
+Positioning
+
+Lead generation
+
+Sales
+
+Pricing
 
 What does that look like? What should it look like in the future for Brand New Guys? And how do we give it substance? For me – and I think for you too – that was the beginning. A real eye-opener. I still remember the look on your face, especially during the part about positioning. How hard that was. How hard it was to really say: “I do this for *that* market.”
 
