@@ -5,6 +5,7 @@ subtitle: Umi Says
 recording_date: 2024-09-02T14:28:14.437Z
 layout: podcast_single.liquid
 tags: podcast
+image: /static/img/uploads/web-1.png
 ---
 ### Case Study: UNICEF Suriname – "Umi Says" Podcast Campaign
 
