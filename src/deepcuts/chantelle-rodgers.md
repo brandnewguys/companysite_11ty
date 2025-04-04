@@ -5,6 +5,7 @@ subtitle: Management Consultant
 recording_date: 2025-04-04T11:00:00.602Z
 layout: podcast_single.liquid
 tags: podcast
+image: /static/img/uploads/chantelle-website-3.jpg
 ---
 **Transcript (English Translation)**
 
