@@ -5,7 +5,7 @@ subtitle: Umi Says
 recording_date: 2024-09-02T14:28:14.437Z
 layout: podcast_single.liquid
 tags: podcast
-image: /static/img/uploads/web-1.png
+image: /static/img/uploads/artboard-1-copy-2.png
 ---
 ### Case Study: UNICEF Suriname – "Umi Says" Podcast Campaign
 
@@ -49,5 +49,7 @@ By positioning the children’s voices at the center of this campaign, we highli
 * **Engagement**: The podcast episodes garnered substantial attention, both from the local public and international stakeholders. The choice of a live format allowed for spontaneous, authentic discussions that connected deeply with listeners.
 * **Visibility**: The OOH campaign, particularly the use of a busy intersection as a canvas, captured the attention of passers-by and created a visually compelling narrative about children’s place in society.
 * **Media Coverage**: Local media outlets, along with activist groups, played a key role in spreading the word, amplifying the children’s voices to a wider audience. UNICEF’s involvement added credibility and further strengthened the reach of the campaign.
+
+![](/static/img/uploads/web-1.1.png)
 
 Through the *"Umi Says"* project, we were able to provide a platform for Surinamese children to express themselves, bridging the gap between policy discussions and the everyday realities they face. This campaign succeeded in both raising awareness of the challenges children in Suriname are grappling with and shifting the narrative by allowing children to lead the conversation themselves.
