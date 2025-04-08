@@ -1,5 +1,5 @@
 ---
-title: '"Play your position"'
+title: Play your position
 published: true
 subtitle: With Chantelle Rodgers
 recording_date: 2025-04-04T11:00:00.602Z
@@ -11,6 +11,9 @@ embedded_player: <iframe style="border-radius:12px"
   width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   loading="lazy"></iframe>
+guests:
+  - guest_name: Chantelle Rodgers
+    guest_url: https://chantellerodgers.nl/
 ---
 **Transcript (English Translation)**
 
