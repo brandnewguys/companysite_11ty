@@ -346,6 +346,7 @@ iframe {
 
 .content img {
     max-width: 700px;
+	width: 90%;
 }
 
 .content:last-child {
