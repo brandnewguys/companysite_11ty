@@ -8,7 +8,7 @@ tags: podcast
 image: /static/img/uploads/chantelle-website-3.jpg
 embedded_player: <iframe width="100%" height="180" frameborder="no"
   scrolling="no" seamless=""
-  src="https://share.transistor.fm/e/e2d7653b"></iframe>
+  src="https://open.spotify.com/episode/7wGeKLSZTiGFXiv691cBwv?si=c1d9b9dbcaf2423d"></iframe>
 ---
 **Transcript (English Translation)**
 
