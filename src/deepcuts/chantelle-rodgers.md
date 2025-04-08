@@ -24,7 +24,9 @@ That led me to a very clear vision. They break it down really simply. They basic
 
 > Positioning. Lead generation. Sales. Pricing.
 
-What does that look like? What should it look like in the future for Brand New Guys? And how do we give it substance? For me – and I think for you too – that was the beginning. A real eye-opener. I still remember the look on your face, especially during the part about positioning. How hard that was. How hard it was to really say: “I do this for *that* market.”
+What does that look like? What should it look like in the future for Brand New Guys? And how do we give it substance? For me – and I think for you too – that was the beginning. A real eye-opener. I still remember the look on your face, especially during the part about positioning. How hard that was. How hard it was to really say: 
+
+> “I do this for *that* market.”
 
 I do this specific thing for this group of people or businesses. And in doing so, you also say no to another group. That was something you found pretty challenging at the time. But in the end, you did start making choices. More importantly: the desired future state of the client. Where does the client want to go? What is that vision on the horizon? What feeling are they aiming for? What do they want to achieve? Then you work backwards from that to figure out what’s needed. Your job is to make that possible. And that’s what you did in this exercise. Which naturally led to something very different than “just websites.” That’s your part in lead generation.
 
