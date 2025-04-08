@@ -6,6 +6,9 @@ recording_date: 2025-04-04T11:00:00.602Z
 layout: podcast_single.liquid
 tags: podcast
 image: /static/img/uploads/chantelle-website-3.jpg
+embedded_player: <iframe width="100%" height="180" frameborder="no"
+  scrolling="no" seamless=""
+  src="https://share.transistor.fm/e/e2d7653b"></iframe>
 ---
 **Transcript (English Translation)**
 
