@@ -25,8 +25,8 @@ In collaboration with UNICEF, we created a pop-up space in the heart of the capi
 
 The podcast was titled **"Umi Says,"** inspired by the Mos Def song of the same name. The choice of title worked on two levels:
 
-1. **Direct Expression**: The opening lyrics of the song say, "I don’t want to write this down, I want to tell you how I feel right now." This sentiment echoed our approach: encouraging children to speak their minds freely and directly in the form of a podcast, rather than rely on written reports and complex documents.
-2. **Homophone to "UNICEF"**: Phonetically, "Umi Says" sounds like "Unicef," further tying the campaign to the organization’s mission and creating an association between UNICEF’s work and the authentic voices of Suriname's children.
+> **Direct Expression**: The opening lyrics of the song say, "I don’t want to write this down, I want to tell you how I feel right now." This sentiment echoed our approach: encouraging children to speak their minds freely and directly in the form of a podcast, rather than rely on written reports and complex documents.
+> **Homophone to "UNICEF"**: Phonetically, "Umi Says" sounds like "Unicef," further tying the campaign to the organization’s mission and creating an association between UNICEF’s work and the authentic voices of Suriname's children.
 
 ### The Podcast Setup
 
@@ -46,9 +46,9 @@ By positioning the children’s voices at the center of this campaign, we highli
 
 ### Results
 
-* **Engagement**: The podcast episodes garnered substantial attention, both from the local public and international stakeholders. The choice of a live format allowed for spontaneous, authentic discussions that connected deeply with listeners.
-* **Visibility**: The OOH campaign, particularly the use of a busy intersection as a canvas, captured the attention of passers-by and created a visually compelling narrative about children’s place in society.
-* **Media Coverage**: Local media outlets, along with activist groups, played a key role in spreading the word, amplifying the children’s voices to a wider audience. UNICEF’s involvement added credibility and further strengthened the reach of the campaign.
+> **Engagement**: The podcast episodes garnered substantial attention, both from the local public and international stakeholders. The choice of a live format allowed for spontaneous, authentic discussions that connected deeply with listeners.
+> **Visibility**: The OOH campaign, particularly the use of a busy intersection as a canvas, captured the attention of passers-by and created a visually compelling narrative about children’s place in society.
+> **Media Coverage**: Local media outlets, along with activist groups, played a key role in spreading the word, amplifying the children’s voices to a wider audience. UNICEF’s involvement added credibility and further strengthened the reach of the campaign.
 
 ![](/static/img/uploads/web-1.1.png)
 
