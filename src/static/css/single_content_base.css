@@ -344,6 +344,10 @@ iframe {
 	padding: var(--page-padding-mobile);
 }
 
+.content img {
+    max-width: 700px;
+}
+
 .content:last-child {
 /*	padding-bottom: 40vh;*/
 }
