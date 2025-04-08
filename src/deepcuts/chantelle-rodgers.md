@@ -6,9 +6,11 @@ recording_date: 2025-04-04T11:00:00.602Z
 layout: podcast_single.liquid
 tags: podcast
 image: /static/img/uploads/chantelle-website-3.jpg
-embedded_player: <iframe width="100%" height="180" frameborder="no"
-  scrolling="no" seamless=""
-  src="https://open.spotify.com/episode/7wGeKLSZTiGFXiv691cBwv?si=c1d9b9dbcaf2423d"></iframe>
+embedded_player: <iframe style="border-radius:12px"
+  src="https://open.spotify.com/embed/episode/7wGeKLSZTiGFXiv691cBwv?utm_source=generator"
+  width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay;
+  clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"></iframe>
 ---
 **Transcript (English Translation)**
 
