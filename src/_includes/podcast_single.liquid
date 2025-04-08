@@ -36,7 +36,7 @@
                 <span class="intro__info">As discussed with<br />{% for guest in guests %}{% if forloop.first %} <a href="{{ guest.guest_url }}" target="_blank">{{ guest.guest_name | capitalize }}</a>{% elsif forloop.last %}& <a href="{{ guest.guest_url }}">{{ guest.guest_name }}</a>{% else %}, <a href="{{ guest.guest_url }}">{{ guest.guest_name }}</a> {% endif %} {% endfor %}<br />
       on <strong>{{ recording_date | date: "%A, %b %d, %Y" | replace: ',', ''}}</strong></span> </div>
             <div class="content">
-
+                <img src={{ image }} />
                 <p>{{ content | replace: '<blockquote> <p>', '<blockquote>' | replace: '</p> </blockquote>', '</blockquote>'}} </p>
             </div>
 
