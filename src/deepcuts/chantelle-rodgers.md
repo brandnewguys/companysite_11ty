@@ -5,7 +5,7 @@ subtitle: With Chantelle Rodgers
 recording_date: 2025-04-04T11:00:00.602Z
 layout: podcast_single.liquid
 tags: podcast
-image: ""
+image: /static/img/uploads/deepcut-pf-transitor.jpg
 embedded_player: <iframe style="border-radius:12px"
   src="https://open.spotify.com/embed/episode/7wGeKLSZTiGFXiv691cBwv?utm_source=generator&theme=0"
   width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay;
