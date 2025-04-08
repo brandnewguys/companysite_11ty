@@ -1,7 +1,7 @@
 ---
-title: Chantelle Rodgers
+title: '"Play your position"'
 published: true
-subtitle: Management Consultant
+subtitle: With Chantelle Rodgers
 recording_date: 2025-04-04T11:00:00.602Z
 layout: podcast_single.liquid
 tags: podcast
