@@ -349,6 +349,10 @@ iframe {
 	width: 90%;
 }
 
+.content--outro img {
+    width: 100px;
+}
+
 .content:last-child {
 /*	padding-bottom: 40vh;*/
 }
