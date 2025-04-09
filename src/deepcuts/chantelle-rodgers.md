@@ -19,7 +19,7 @@ guests:
 
 I was working at a foundation, and I had quite a few observations. But they weren’t always based on my experiences at agencies. For example, I had one note saying: “Well, I think you took quite a long time to complete an assignment.” I felt the turnaround times were too long for things that were supposed to make room for new clients. I also thought your prices were on the low side. And the type of clients didn’t always match what you had to offer.
 
-So I felt the clients that were coming to you weren’t really the right fit yet — they hadn’t found you properly. Based on that, you once asked me, “Alright, let’s sit down together.” So we set a date, along with Esma, who was also working at Brand New Guys at the time, to do a real session.
+So I felt the clients that were coming to you weren’t really the right fit yet — they hadn’t found you properly. Based on that, you once asked me, “Alright, let’s sit down together.” So we set a date, along with Asma, who was also working at Brand New Guys at the time, to do a real session.
 
 From there, we started discussing risks. How does the agency world actually work? What are the important components? Things like: what price do you set? And how do you attract the right clients? That’s when I quickly came across Blair Enns. For those who don’t know him: Blair Enns is an expert in agency positioning and growth. He mainly shares his insights through a podcast he co-hosts with David C. Baker. That podcast is called *2Bobs*.
 
