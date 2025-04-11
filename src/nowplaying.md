@@ -1,11 +1,11 @@
 ---
 layout: nowplaying.html
-client: Hennah C Draaibaar
+client: You
 wifi_network: BNG
 wifi_code: Wecaneat1!
-agenda1: Mama Djari
-agenda2: 
-agenda3: 
-agenda4: 
+agenda1: ""
+agenda2: null
+agenda3: null
+agenda4: null
 balie_movie: /static/img/uploads/1f.jpg
 ---
