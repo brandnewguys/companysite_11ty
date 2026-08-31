@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+  functions = "netlify/functions"
+
+[functions]
+  # Bundle mjs functions with the modern esbuild bundler
+  node_bundler = "esbuild"
+
+# Notion webhook (Indy) — receives comment.created events
+# URL: brandnewguys.co/notion/webhook  (path is configured in the function itself via `config.path`)
